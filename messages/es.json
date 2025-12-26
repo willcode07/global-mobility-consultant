@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Simplifique Su Expansión a Estados Unidos",
+    "subtitle": "Servicios expertos de movilidad global con profundo conocimiento de la cultura catalana y la América corporativa",
+    "cta": "Reservar una Consulta"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Apoyo integral para su expansión en EE.UU.",
+    "immigration": {
+      "title": "Servicios de Inmigración",
+      "description": "Soporte completo en documentación de inmigración para su empresa y empleados, garantizando el cumplimiento de las regulaciones estadounidenses."
+    },
+    "supplier": {
+      "title": "Relaciones con Proveedores",
+      "description": "Aproveche nuestra extensa red para establecer y mantener relaciones estratégicas con proveedores en Estados Unidos."
+    },
+    "manufacturing": {
+      "title": "Instalaciones de Manufactura",
+      "description": "Orientación experta para identificar, evaluar y establecer instalaciones de manufactura que se alineen con las necesidades de su negocio."
+    },
+    "corporate": {
+      "title": "Experiencia en América Corporativa",
+      "description": "Navegue las complejidades de la cultura corporativa, regulaciones y prácticas comerciales de EE.UU. con confianza."
+    },
+    "cultural": {
+      "title": "Puente Cultural",
+      "description": "Benefíciese de nuestra comprensión única tanto de la cultura catalana como del entorno empresarial estadounidense."
+    }
+  },
+  "value": {
+    "title": "Por Qué Elegirnos",
+    "catalan": {
+      "title": "Idioma y Cultura Catalana",
+      "description": "Comprensión nativa del idioma y la cultura catalana, garantizando una comunicación fluida y alineación cultural."
+    },
+    "network": {
+      "title": "Red Establecida",
+      "description": "Relaciones probadas con proveedores, fabricantes y proveedores de servicios en Estados Unidos."
+    },
+    "efficiency": {
+      "title": "Proceso Simplificado",
+      "description": "Un paquete integral de servicios diseñado para acelerar su cronograma de expansión y reducir la complejidad."
+    },
+    "expertise": {
+      "title": "Experiencia en América Corporativa",
+      "description": "Conocimiento profundo de los requisitos comerciales, regulaciones y cultura corporativa de EE.UU. para garantizar su éxito."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Expandirse a Estados Unidos?",
+    "subtitle": "Hablemos sobre cómo podemos ayudar a simplificar su viaje de expansión",
+    "button": "Reservar una Consulta"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}
+

@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Inici",
+    "services": "Serveis",
+    "about": "Sobre Nosaltres",
+    "contact": "Contacte"
+  },
+  "hero": {
+    "title": "Simplifiqueu la Vostra Expansió als Estats Units",
+    "subtitle": "Serveis experts de mobilitat global amb comprensió profunda de la cultura catalana i l'Amèrica corporativa",
+    "cta": "Reservar una Consulta"
+  },
+  "services": {
+    "title": "Els Nostres Serveis",
+    "subtitle": "Suport integral per a la vostra expansió als EUA",
+    "immigration": {
+      "title": "Serveis d'Immigració",
+      "description": "Suport complet en documentació d'immigració per a la vostra empresa i empleats, garantint el compliment de les regulacions estatunidenques."
+    },
+    "supplier": {
+      "title": "Relacions amb Proveïdors",
+      "description": "Aprofiteu la nostra xarxa extensa per establir i mantenir relacions estratègiques amb proveïdors als Estats Units."
+    },
+    "manufacturing": {
+      "title": "Instal·lacions de Manufactura",
+      "description": "Orientació expert per identificar, avaluar i establir instal·lacions de manufactura que s'alineïn amb les necessitats del vostre negoci."
+    },
+    "corporate": {
+      "title": "Experiència en Amèrica Corporativa",
+      "description": "Navegueu les complexitats de la cultura corporativa, regulacions i pràctiques comercials dels EUA amb confiança."
+    },
+    "cultural": {
+      "title": "Pont Cultural",
+      "description": "Beneficiïeu-vos de la nostra comprensió única tant de la cultura catalana com de l'entorn empresarial estatunidenc."
+    }
+  },
+  "value": {
+    "title": "Per Què Triar-nos",
+    "catalan": {
+      "title": "Llengua i Cultura Catalana",
+      "description": "Comprensió nativa de la llengua i cultura catalana, garantint una comunicació fluida i alineació cultural."
+    },
+    "network": {
+      "title": "Xarxa Establerta",
+      "description": "Relacions provades amb proveïdors, fabricants i proveïdors de serveis als Estats Units."
+    },
+    "efficiency": {
+      "title": "Procés Simplificat",
+      "description": "Un paquet integral de serveis dissenyat per accelerar el vostre cronograma d'expansió i reduir la complexitat."
+    },
+    "expertise": {
+      "title": "Experiència en Amèrica Corporativa",
+      "description": "Coneixement profund dels requisits comercials, regulacions i cultura corporativa dels EUA per garantir el vostre èxit."
+    }
+  },
+  "cta": {
+    "title": "Preparat per Expandir-se als Estats Units?",
+    "subtitle": "Parlem sobre com podem ajudar a simplificar el vostre viatge d'expansió",
+    "button": "Reservar una Consulta"
+  },
+  "footer": {
+    "rights": "Tots els drets reservats."
+  }
+}
+

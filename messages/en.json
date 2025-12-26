@@ -1,0 +1,65 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Streamline Your Expansion to the United States",
+    "subtitle": "Expert global mobility services with deep understanding of Catalan culture and corporate America",
+    "cta": "Book a Consultation"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive support for your US expansion",
+    "immigration": {
+      "title": "Immigration Services",
+      "description": "Complete immigration documentation support for your business and employees, ensuring compliance with US regulations."
+    },
+    "supplier": {
+      "title": "Supplier Relationships",
+      "description": "Leverage our extensive network to establish and maintain strategic supplier relationships across the United States."
+    },
+    "manufacturing": {
+      "title": "Manufacturing Facilities",
+      "description": "Expert guidance on identifying, evaluating, and establishing manufacturing facilities that align with your business needs."
+    },
+    "corporate": {
+      "title": "Corporate America Expertise",
+      "description": "Navigate the complexities of US corporate culture, regulations, and business practices with confidence."
+    },
+    "cultural": {
+      "title": "Cultural Bridge",
+      "description": "Benefit from our unique understanding of both Catalan culture and American business environment."
+    }
+  },
+  "value": {
+    "title": "Why Choose Us",
+    "catalan": {
+      "title": "Catalan Language & Culture",
+      "description": "Native-level understanding of Catalan language and culture, ensuring seamless communication and cultural alignment."
+    },
+    "network": {
+      "title": "Established Network",
+      "description": "Proven relationships with suppliers, manufacturers, and service providers across the United States."
+    },
+    "efficiency": {
+      "title": "Streamlined Process",
+      "description": "A comprehensive package of services designed to accelerate your expansion timeline and reduce complexity."
+    },
+    "expertise": {
+      "title": "Corporate America Expertise",
+      "description": "Deep knowledge of US business requirements, regulations, and corporate culture to ensure your success."
+    }
+  },
+  "cta": {
+    "title": "Ready to Expand to the United States?",
+    "subtitle": "Let's discuss how we can help streamline your expansion journey",
+    "button": "Book a Consultation"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
+
