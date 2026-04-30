@@ -2,6 +2,8 @@
 
 A modern, clean website for a global mobility consultant specializing in helping companies expand to the United States. The site features multi-language support (English, Spanish, and Catalan) and integrates with Calendly for consultation bookings.
 
+**Live demo:** https://willcode07.github.io/global-mobility-consultant/
+
 ## Features
 
 - 🌍 **Multi-language Support**: English, Spanish, and Catalan
@@ -83,7 +85,27 @@ npm start
 
 ## Deployment
 
-This project can be deployed to Vercel, Netlify, or any platform that supports Next.js applications.
+### GitHub Pages (current)
+
+The site auto-deploys to GitHub Pages on every push to `main` via
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). The workflow runs
+`GITHUB_PAGES=true next build`, which produces a static export in `out/` with the
+correct `basePath` (`/global-mobility-consultant`) and uploads it to Pages.
+
+To enable Pages the first time, go to **Settings → Pages** on GitHub and set
+**Source** to **GitHub Actions**.
+
+To produce the same static build locally:
+
+```bash
+npm run build:gh-pages
+npx serve out  # optional preview
+```
+
+### Other platforms
+
+The project also runs on any Next.js host (Vercel, Netlify, etc.) — just run
+`npm run build` (without `GITHUB_PAGES=true`) to skip the basePath.
 
 ## License
 
