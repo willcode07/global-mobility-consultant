@@ -11,8 +11,8 @@ export default function Hero() {
   const locale = useLocale();
   const guideUrl = siteConfig.expansionGuideUrl;
 
-  const secondaryHref = guideUrl || `/${locale}/#services`;
-  const contactHref = `/${locale}/#contact`;
+  const secondaryHref = guideUrl || withBasePath(`/${locale}/#services`);
+  const contactHref = withBasePath(`/${locale}/#contact`);
 
   return (
     <section id="home" className="relative isolate min-h-[85vh] overflow-hidden">

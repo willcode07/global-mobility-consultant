@@ -6,6 +6,7 @@ import { Menu, X } from 'lucide-react';
 import { locales } from '@/i18n';
 import Logo from './Logo';
 import CalendlyButton from './CalendlyButton';
+import { withBasePath } from '@/lib/site';
 
 const links = [
   { key: 'services', hash: '#services' },
@@ -16,7 +17,7 @@ const links = [
 
 function goToLocale(newLocale: string) {
   const hash = window.location.hash || '';
-  window.location.assign(`/${newLocale}/${hash}`);
+  window.location.assign(withBasePath(`/${newLocale}/${hash}`));
 }
 
 export default function Navigation() {
@@ -35,7 +36,7 @@ export default function Navigation() {
           {links.map((link) => (
             <a
               key={link.key}
-              href={`${homePath}${link.hash}`}
+              href={withBasePath(`${homePath}${link.hash}`)}
               className="text-sm font-medium text-nexo-gray transition-colors hover:text-nexo-purple"
             >
               {t(link.key)}
@@ -48,7 +49,7 @@ export default function Navigation() {
             {locales.map((loc) => (
               <a
                 key={loc}
-                href={`/${loc}/`}
+                href={withBasePath(`/${loc}/`)}
                 onClick={(e) => {
                   e.preventDefault();
                   goToLocale(loc);
@@ -87,7 +88,7 @@ export default function Navigation() {
             {links.map((link) => (
               <a
                 key={link.key}
-                href={`${homePath}${link.hash}`}
+                href={withBasePath(`${homePath}${link.hash}`)}
                 onClick={() => setOpen(false)}
                 className="rounded-lg px-3 py-2.5 text-sm font-medium text-nexo-black hover:bg-nexo-light"
               >
@@ -99,7 +100,7 @@ export default function Navigation() {
                 {locales.map((loc) => (
                   <a
                     key={loc}
-                    href={`/${loc}/`}
+                    href={withBasePath(`/${loc}/`)}
                     onClick={(e) => {
                       e.preventDefault();
                       setOpen(false);

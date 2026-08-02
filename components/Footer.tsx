@@ -3,7 +3,7 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Mail } from 'lucide-react';
 import Logo from './Logo';
-import { siteConfig } from '@/lib/site';
+import { siteConfig, withBasePath } from '@/lib/site';
 
 function LinkedInIcon({ className }: { className?: string }) {
   return (
@@ -20,10 +20,10 @@ export default function Footer() {
   const homePath = `/${locale}/`;
 
   const links = [
-    { href: `${homePath}#services`, label: tNav('services') },
-    { href: `${homePath}#industries`, label: tNav('industries') },
-    { href: `${homePath}#about`, label: tNav('about') },
-    { href: `${homePath}#contact`, label: tNav('contact') },
+    { href: withBasePath(`${homePath}#services`), label: tNav('services') },
+    { href: withBasePath(`${homePath}#industries`), label: tNav('industries') },
+    { href: withBasePath(`${homePath}#about`), label: tNav('about') },
+    { href: withBasePath(`${homePath}#contact`), label: tNav('contact') },
   ];
 
   return (
@@ -80,7 +80,7 @@ export default function Footer() {
                 </a>
               ) : (
                 <a
-                  href={`${homePath}#contact`}
+                  href={withBasePath(`${homePath}#contact`)}
                   className="inline-flex items-center gap-2 text-sm text-white/80 hover:text-white"
                 >
                   <Mail className="h-4 w-4" />
