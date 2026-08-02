@@ -1,65 +1,274 @@
 {
+  "meta": {
+    "homeTitle": "Nexo Mobility — Expande tu negocio a EE. UU. con confianza",
+    "homeDescription": "Consultora boutique para empresas españolas que se expanden hacia Estados Unidos. Un interlocutor estratégico que coordina cada etapa de tu crecimiento internacional."
+  },
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
-    "about": "Sobre Nosotros",
-    "contact": "Contacto"
+    "industries": "Sectores",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "cta": "Reservar llamada",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "title": "Simplifique Su Expansión a Estados Unidos",
-    "subtitle": "Servicios expertos de movilidad global con profundo conocimiento de la cultura catalana y la América corporativa",
-    "cta": "Reservar una Consulta"
+    "brand": "Nexo Mobility",
+    "title": "Expande tu negocio a EE. UU. con confianza.",
+    "subtitle": "Nexo Mobility acompaña a empresas españolas en su expansión a Estados Unidos, coordinando cada etapa del proceso a través de un único interlocutor estratégico de confianza.",
+    "ctaPrimary": "Reservar Discovery Call",
+    "ctaSecondary": "Descargar guía de expansión",
+    "ctaSecondaryFallback": "Explorar nuestros paquetes"
   },
-  "services": {
-    "title": "Nuestros Servicios",
-    "subtitle": "Apoyo integral para su expansión en EE.UU.",
-    "immigration": {
-      "title": "Servicios de Inmigración",
-      "description": "Soporte completo en documentación de inmigración para su empresa y empleados, garantizando el cumplimiento de las regulaciones estadounidenses."
-    },
-    "supplier": {
-      "title": "Relaciones con Proveedores",
-      "description": "Aproveche nuestra extensa red para establecer y mantener relaciones estratégicas con proveedores en Estados Unidos."
-    },
-    "manufacturing": {
-      "title": "Instalaciones de Manufactura",
-      "description": "Orientación experta para identificar, evaluar y establecer instalaciones de manufactura que se alineen con las necesidades de su negocio."
-    },
-    "corporate": {
-      "title": "Experiencia en América Corporativa",
-      "description": "Navegue las complejidades de la cultura corporativa, regulaciones y prácticas comerciales de EE.UU. con confianza."
-    },
-    "cultural": {
-      "title": "Puente Cultural",
-      "description": "Benefíciese de nuestra comprensión única tanto de la cultura catalana como del entorno empresarial estadounidense."
+  "whatWeDo": {
+    "title": "Qué hacemos",
+    "subtitle": "No vendemos servicios aislados. Diseñamos, coordinamos y acompañamos proyectos internacionales desde el primer diagnóstico hasta el crecimiento a largo plazo.",
+    "items": {
+      "consulting": {
+        "title": "Consultoría estratégica",
+        "description": "Clarificamos la oportunidad, los riesgos y el camino más adecuado para entrar en el mercado estadounidense."
+      },
+      "expansion": {
+        "title": "Expansión internacional",
+        "description": "Coordinación integral desde el diagnóstico hasta la implantación y el seguimiento continuo."
+      },
+      "ecosystem": {
+        "title": "Ecosistema de confianza",
+        "description": "Acceso a especialistas legales, fiscales, migratorios, de talento y operaciones a través de un único interlocutor."
+      },
+      "partnership": {
+        "title": "Alianza a largo plazo",
+        "description": "Te acompañamos más allá del lanzamiento, con advisory que crece junto a tu presencia en EE. UU."
+      }
     }
   },
-  "value": {
-    "title": "Por Qué Elegirnos",
-    "catalan": {
-      "title": "Idioma y Cultura Catalana",
-      "description": "Comprensión nativa del idioma y la cultura catalana, garantizando una comunicación fluida y alineación cultural."
-    },
-    "network": {
-      "title": "Red Establecida",
-      "description": "Relaciones probadas con proveedores, fabricantes y proveedores de servicios en Estados Unidos."
-    },
-    "efficiency": {
-      "title": "Proceso Simplificado",
-      "description": "Un paquete integral de servicios diseñado para acelerar su cronograma de expansión y reducir la complejidad."
-    },
-    "expertise": {
-      "title": "Experiencia en América Corporativa",
-      "description": "Conocimiento profundo de los requisitos comerciales, regulaciones y cultura corporativa de EE.UU. para garantizar su éxito."
+  "howWeWork": {
+    "title": "Cómo trabajamos",
+    "subtitle": "Un recorrido claro desde la primera conversación hasta una colaboración duradera.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery Call",
+        "description": "Comprendemos tus objetivos, plazos y restricciones."
+      },
+      "assessment": {
+        "title": "Assessment",
+        "description": "Evaluamos la viabilidad y trazamos un roadmap de expansión práctico."
+      },
+      "proposal": {
+        "title": "Propuesta",
+        "description": "Definimos el alcance, el paquete y el equipo de especialistas que requiere tu proyecto."
+      },
+      "project": {
+        "title": "Proyecto",
+        "description": "Coordinamos la implantación con reporting transparente en cada etapa."
+      },
+      "partner": {
+        "title": "Partner a largo plazo",
+        "description": "Ofrecemos advisory continuo a medida que madura tu operación en EE. UU."
+      }
     }
   },
-  "cta": {
-    "title": "¿Listo para Expandirse a Estados Unidos?",
-    "subtitle": "Hablemos sobre cómo podemos ayudar a simplificar su viaje de expansión",
-    "button": "Reservar una Consulta"
+  "packages": {
+    "eyebrow": "Nexo Mobility",
+    "title": "Nuestra oferta de acompañamiento",
+    "subtitle": "Paquetes diseñados para cada etapa de tu expansión en Estados Unidos.",
+    "addonsTitle": "Add-ons disponibles",
+    "essential": {
+      "name": "Essential",
+      "tagline": "Valida tu oportunidad",
+      "price": "Desde XXX €",
+      "description": "Ideal para empresas que desean evaluar la viabilidad de su expansión a Estados Unidos.",
+      "cta": "Empezar",
+      "features": [
+        "Discovery Workshop",
+        "Diagnóstico inicial",
+        "Roadmap de expansión",
+        "Recomendaciones estratégicas",
+        "Reunión ejecutiva de presentación"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "tagline": "Implementa con éxito",
+      "price": "Desde XXX €",
+      "description": "El paquete más completo para iniciar tu proceso de expansión con acompañamiento especializado.",
+      "cta": "Más popular",
+      "featured": "Destacado",
+      "features": [
+        "Todo lo incluido en Essential",
+        "Coordinación del proyecto",
+        "Acceso a nuestro ecosistema de expertos",
+        "Seguimiento durante la implantación",
+        "Reuniones quincenales",
+        "Gestión documental y reporting"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "Acompañamiento integral",
+      "price": "Contactar",
+      "description": "Para proyectos complejos que requieren una gestión integral y un equipo dedicado.",
+      "cta": "Contactar",
+      "features": [
+        "Todo lo incluido en Professional",
+        "Equipo dedicado",
+        "Coordinación integral del proyecto",
+        "Gestión completa de la implantación",
+        "Soporte prioritario",
+        "Advisory continuo y estratégico"
+      ]
+    },
+    "addons": [
+      "Estudios de mercado específicos",
+      "Búsqueda de distribuidores o partners comerciales",
+      "Coordinación legal y fiscal",
+      "Cumplimiento regulatorio (FDA u otros)",
+      "Selección de talento y contratación",
+      "Servicios migratorios",
+      "Selección de proveedores especializados",
+      "Representación temporal en Estados Unidos",
+      "Formación intercultural y preparación de equipos",
+      "Seguimiento mensual (retainer)",
+      "Representación en ferias y eventos",
+      "Y más servicios adaptados a tu proyecto"
+    ]
+  },
+  "industries": {
+    "title": "Sectores que acompañamos",
+    "subtitle": "Contexto sectorial profundo para empresas españolas que entran en el mercado estadounidense.",
+    "items": {
+      "food": {
+        "title": "Alimentación",
+        "description": "Entrada al mercado, vías regulatorias y distribución para marcas de alimentación y bebidas."
+      },
+      "technology": {
+        "title": "Tecnología",
+        "description": "Estrategia go-to-market, partnerships y setup operativo para empresas tecnológicas."
+      },
+      "manufacturing": {
+        "title": "Manufactura",
+        "description": "Instalaciones, proveedores y coordinación de la cadena de suministro para la expansión industrial."
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "Expansión con foco en el cumplimiento normativo para organizaciones de salud y life sciences."
+      },
+      "consumer": {
+        "title": "Bienes de consumo",
+        "description": "Estrategias de retail, e-commerce y posicionamiento de marca para el consumidor estadounidense."
+      }
+    }
+  },
+  "cases": {
+    "title": "Casos de éxito",
+    "subtitle": "Ejemplos ilustrativos de cómo acompañamos proyectos de expansión.",
+    "note": "Ejemplos anonimizados con fines demostrativos — sustituir por casos aprobados por clientes.",
+    "items": {
+      "one": {
+        "sector": "Alimentación y bebidas",
+        "title": "Validación de mercado antes del lanzamiento en EE. UU.",
+        "description": "Una empresa española de alimentación specialty utilizó Essential para validar la demanda, los requisitos regulatorios y un roadmap de distribución por fases antes de comprometer capital."
+      },
+      "two": {
+        "sector": "Industrial",
+        "title": "Implantación coordinada con partners locales",
+        "description": "Un fabricante mediano contrató Professional para coordinar el setup legal, la selección de proveedores y el seguimiento quincenal de la ejecución entre Miami y el Midwest."
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Nexo Mobility",
+    "subtitle": "Una consultora boutique especializada en acompañar a empresas españolas durante su expansión hacia Estados Unidos.",
+    "storyTitle": "Nuestra historia",
+    "story": "Nexo Mobility nació para reducir la incertidumbre de la expansión internacional. Actuamos como el único interlocutor estratégico que diseña, coordina y acompaña cada proyecto, conectando el liderazgo español con especialistas de confianza en Estados Unidos.",
+    "missionTitle": "Misión",
+    "mission": "Reducir la incertidumbre durante la expansión internacional proporcionando a las empresas españolas un acompañamiento estratégico integral y un acceso coordinado a especialistas de confianza en Estados Unidos.",
+    "visionTitle": "Visión",
+    "vision": "Convertirnos en la consultora boutique de referencia para empresas españolas que desean establecerse con éxito en el mercado estadounidense.",
+    "valuesTitle": "Valores",
+    "values": {
+      "trust": "Confianza",
+      "transparency": "Transparencia",
+      "closeness": "Cercanía",
+      "excellence": "Excelencia",
+      "innovation": "Innovación",
+      "collaboration": "Colaboración",
+      "results": "Orientación a resultados"
+    },
+    "promiseTitle": "Promesa de marca",
+    "promise": "Reducir la incertidumbre. Impulsar el crecimiento internacional."
+  },
+  "why": {
+    "title": "Por qué Nexo Mobility",
+    "subtitle": "Reducir la incertidumbre. Impulsar el crecimiento internacional.",
+    "items": {
+      "trust": {
+        "title": "Confianza y transparencia",
+        "description": "Comunicación clara, diagnósticos honestos y sin tácticas de venta agresivas."
+      },
+      "single": {
+        "title": "Un único interlocutor estratégico",
+        "description": "Centralizamos la gestión del proyecto para que no tengas que coordinar proveedores en solitario."
+      },
+      "ecosystem": {
+        "title": "Ecosistema de expertos",
+        "description": "Especialistas legales, fiscales, migratorios, de talento y operaciones, coordinados por nosotros."
+      },
+      "results": {
+        "title": "Orientación a resultados",
+        "description": "Cada engagement se estructura en torno a hitos que avanzan tu expansión."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": {
+      "who": {
+        "q": "¿Para quién es Nexo Mobility?",
+        "a": "Para pymes españolas, empresas familiares e industriales, tecnológicas, de alimentación y de servicios que se preparan para entrar o crecer en Estados Unidos."
+      },
+      "diff": {
+        "q": "¿En qué os diferenciáis de una consultora tradicional?",
+        "a": "No vendemos servicios aislados. Diseñamos y coordinamos proyectos internacionales completos a través de un partner de confianza y un ecosistema contrastado de especialistas."
+      },
+      "start": {
+        "q": "¿Por dónde empezamos?",
+        "a": "La mayoría de los clientes comienza con una Discovery Call y, a continuación, Essential para validar la oportunidad, o Professional cuando ya están listos para implementar."
+      },
+      "locations": {
+        "q": "¿Dónde estáis?",
+        "a": "Operamos entre Miami y Barcelona, conectando empresas españolas con el mercado estadounidense."
+      }
+    }
+  },
+  "contact": {
+    "title": "Hablemos de tu expansión",
+    "subtitle": "Reserva una Discovery Call o envíanos un mensaje. Te responderemos con claridad y próximos pasos concretos.",
+    "locations": "Miami · Barcelona",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Email profesional",
+      "company": "Empresa",
+      "message": "¿Cómo podemos ayudarte?",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Gracias — nos pondremos en contacto en breve.",
+      "error": "Ha ocurrido un error. Por favor, escríbenos por email.",
+      "mailtoHint": "O escríbenos directamente"
+    },
+    "calendlyTitle": "¿Prefieres reservar directamente?",
+    "calendlyCta": "Reservar Discovery Call",
+    "calendlyUnavailable": "El enlace de reserva estará disponible en breve; mientras tanto, escríbenos por email."
   },
   "footer": {
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos",
+    "tagline": "Consulting · Technology · Global Connections"
+  },
+  "common": {
+    "learnMore": "Saber más",
+    "contactUs": "Contactar"
   }
 }
-

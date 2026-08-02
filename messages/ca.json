@@ -1,65 +1,274 @@
 {
+  "meta": {
+    "homeTitle": "Nexo Mobility — Expandeix el teu negoci als EUA amb confiança",
+    "homeDescription": "Consultora boutique per a empreses espanyoles que s'expandeixen cap als Estats Units. Un interlocutor estratègic que coordina cada etapa del teu creixement internacional."
+  },
   "nav": {
     "home": "Inici",
     "services": "Serveis",
-    "about": "Sobre Nosaltres",
-    "contact": "Contacte"
+    "industries": "Sectors",
+    "about": "Nosaltres",
+    "contact": "Contacte",
+    "cta": "Reservar trucada",
+    "openMenu": "Obrir menú",
+    "closeMenu": "Tancar menú"
   },
   "hero": {
-    "title": "Simplifiqueu la Vostra Expansió als Estats Units",
-    "subtitle": "Serveis experts de mobilitat global amb comprensió profunda de la cultura catalana i l'Amèrica corporativa",
-    "cta": "Reservar una Consulta"
+    "brand": "Nexo Mobility",
+    "title": "Expandeix el teu negoci als EUA amb confiança.",
+    "subtitle": "Nexo Mobility acompanya empreses espanyoles en la seva expansió als Estats Units, coordinant cada etapa del procés a través d'un únic interlocutor estratègic de confiança.",
+    "ctaPrimary": "Reservar Discovery Call",
+    "ctaSecondary": "Descarregar guia d'expansió",
+    "ctaSecondaryFallback": "Explorar els nostres paquets"
   },
-  "services": {
-    "title": "Els Nostres Serveis",
-    "subtitle": "Suport integral per a la vostra expansió als EUA",
-    "immigration": {
-      "title": "Serveis d'Immigració",
-      "description": "Suport complet en documentació d'immigració per a la vostra empresa i empleats, garantint el compliment de les regulacions estatunidenques."
-    },
-    "supplier": {
-      "title": "Relacions amb Proveïdors",
-      "description": "Aprofiteu la nostra xarxa extensa per establir i mantenir relacions estratègiques amb proveïdors als Estats Units."
-    },
-    "manufacturing": {
-      "title": "Instal·lacions de Manufactura",
-      "description": "Orientació expert per identificar, avaluar i establir instal·lacions de manufactura que s'alineïn amb les necessitats del vostre negoci."
-    },
-    "corporate": {
-      "title": "Experiència en Amèrica Corporativa",
-      "description": "Navegueu les complexitats de la cultura corporativa, regulacions i pràctiques comercials dels EUA amb confiança."
-    },
-    "cultural": {
-      "title": "Pont Cultural",
-      "description": "Beneficiïeu-vos de la nostra comprensió única tant de la cultura catalana com de l'entorn empresarial estatunidenc."
+  "whatWeDo": {
+    "title": "Què fem",
+    "subtitle": "No venem serveis aïllats. Dissenyem, coordinem i acompanyem projectes internacionals des del primer diagnòstic fins al creixement a llarg termini.",
+    "items": {
+      "consulting": {
+        "title": "Consultoria estratègica",
+        "description": "Clarifiquem l'oportunitat, els riscos i el camí més adequat per entrar al mercat estatunidenc."
+      },
+      "expansion": {
+        "title": "Expansió internacional",
+        "description": "Coordinació integral des del diagnòstic fins a la implantació i el seguiment continu."
+      },
+      "ecosystem": {
+        "title": "Ecosistema de confiança",
+        "description": "Accés a especialistes legals, fiscals, migratoris, de talent i operacions a través d'un únic interlocutor."
+      },
+      "partnership": {
+        "title": "Aliança a llarg termini",
+        "description": "T'acompanyem més enllà del llançament, amb advisory que creix juntament amb la teva presència als EUA."
+      }
     }
   },
-  "value": {
-    "title": "Per Què Triar-nos",
-    "catalan": {
-      "title": "Llengua i Cultura Catalana",
-      "description": "Comprensió nativa de la llengua i cultura catalana, garantint una comunicació fluida i alineació cultural."
-    },
-    "network": {
-      "title": "Xarxa Establerta",
-      "description": "Relacions provades amb proveïdors, fabricants i proveïdors de serveis als Estats Units."
-    },
-    "efficiency": {
-      "title": "Procés Simplificat",
-      "description": "Un paquet integral de serveis dissenyat per accelerar el vostre cronograma d'expansió i reduir la complexitat."
-    },
-    "expertise": {
-      "title": "Experiència en Amèrica Corporativa",
-      "description": "Coneixement profund dels requisits comercials, regulacions i cultura corporativa dels EUA per garantir el vostre èxit."
+  "howWeWork": {
+    "title": "Com treballem",
+    "subtitle": "Un recorregut clar des de la primera conversa fins a una col·laboració duradora.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery Call",
+        "description": "Comprenem els teus objectius, terminis i restriccions."
+      },
+      "assessment": {
+        "title": "Assessment",
+        "description": "Avaluem la viabilitat i tracem un roadmap d'expansió pràctic."
+      },
+      "proposal": {
+        "title": "Proposta",
+        "description": "Definim l'abast, el paquet i l'equip d'especialistes que requereix el teu projecte."
+      },
+      "project": {
+        "title": "Projecte",
+        "description": "Coordindem la implantació amb reporting transparent a cada etapa."
+      },
+      "partner": {
+        "title": "Partner a llarg termini",
+        "description": "Oferim advisory continu a mesura que madura la teva operació als EUA."
+      }
     }
   },
-  "cta": {
-    "title": "Preparat per Expandir-se als Estats Units?",
-    "subtitle": "Parlem sobre com podem ajudar a simplificar el vostre viatge d'expansió",
-    "button": "Reservar una Consulta"
+  "packages": {
+    "eyebrow": "Nexo Mobility",
+    "title": "La nostra oferta d'acompanyament",
+    "subtitle": "Paquets dissenyats per a cada etapa de la teva expansió als Estats Units.",
+    "addonsTitle": "Add-ons disponibles",
+    "essential": {
+      "name": "Essential",
+      "tagline": "Valida la teva oportunitat",
+      "price": "Des de XXX €",
+      "description": "Ideal per a empreses que desitgen avaluar la viabilitat de la seva expansió als Estats Units.",
+      "cta": "Començar",
+      "features": [
+        "Discovery Workshop",
+        "Diagnòstic inicial",
+        "Roadmap d'expansió",
+        "Recomanacions estratègiques",
+        "Reunió executiva de presentació"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "tagline": "Implementa amb èxit",
+      "price": "Des de XXX €",
+      "description": "El paquet més complet per iniciar el teu procés d'expansió amb acompanyament especialitzat.",
+      "cta": "Més popular",
+      "featured": "Destacat",
+      "features": [
+        "Tot el que inclou Essential",
+        "Coordinació del projecte",
+        "Accés al nostre ecosistema d'experts",
+        "Seguiment durant la implantació",
+        "Reunions quinzenals",
+        "Gestió documental i reporting"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "Acompanyament integral",
+      "price": "Contactar",
+      "description": "Per a projectes complexos que requereixen una gestió integral i un equip dedicat.",
+      "cta": "Contactar",
+      "features": [
+        "Tot el que inclou Professional",
+        "Equip dedicat",
+        "Coordinació integral del projecte",
+        "Gestió completa de la implantació",
+        "Suport prioritari",
+        "Advisory continu i estratègic"
+      ]
+    },
+    "addons": [
+      "Estudis de mercat específics",
+      "Cerca de distribuïdors o partners comercials",
+      "Coordinació legal i fiscal",
+      "Compliment regulatori (FDA o altres)",
+      "Selecció de talent i contractació",
+      "Serveis migratoris",
+      "Selecció de proveïdors especialitzats",
+      "Representació temporal als Estats Units",
+      "Formació intercultural i preparació d'equips",
+      "Seguiment mensual (retainer)",
+      "Representació en fires i esdeveniments",
+      "I més serveis adaptats al teu projecte"
+    ]
+  },
+  "industries": {
+    "title": "Sectors que acompanyem",
+    "subtitle": "Context sectorial profund per a empreses espanyoles que entren al mercat estatunidenc.",
+    "items": {
+      "food": {
+        "title": "Alimentació",
+        "description": "Entrada al mercat, vies regulatòries i distribució per a marques d'alimentació i begudes."
+      },
+      "technology": {
+        "title": "Tecnologia",
+        "description": "Estratègia go-to-market, partnerships i setup operatiu per a empreses tecnològiques."
+      },
+      "manufacturing": {
+        "title": "Manufactura",
+        "description": "Instal·lacions, proveïdors i coordinació de la cadena de subministrament per a l'expansió industrial."
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "Expansió amb focus en el compliment normatiu per a organitzacions de salut i life sciences."
+      },
+      "consumer": {
+        "title": "Béns de consum",
+        "description": "Estratègies de retail, e-commerce i posicionament de marca per al consumidor estatunidenc."
+      }
+    }
+  },
+  "cases": {
+    "title": "Casos d'èxit",
+    "subtitle": "Exemples il·lustratius de com acompanyem projectes d'expansió.",
+    "note": "Exemples anonimitzats amb finalitats demostratives — substituir per casos aprovats per clients.",
+    "items": {
+      "one": {
+        "sector": "Alimentació i begudes",
+        "title": "Validació de mercat abans del llançament als EUA",
+        "description": "Una empresa espanyola d'alimentació specialty va fer servir Essential per validar la demanda, els requisits regulatoris i un roadmap de distribució per fases abans de comprometre capital."
+      },
+      "two": {
+        "sector": "Industrial",
+        "title": "Implantació coordinada amb partners locals",
+        "description": "Un fabricant mitjà va contractar Professional per coordinar el setup legal, la selecció de proveïdors i el seguiment quinzenal de l'execució entre Miami i el Midwest."
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Nexo Mobility",
+    "subtitle": "Una consultora boutique especialitzada a acompanyar empreses espanyoles durant la seva expansió cap als Estats Units.",
+    "storyTitle": "La nostra història",
+    "story": "Nexo Mobility va néixer per reduir la incertesa de l'expansió internacional. Actuem com l'únic interlocutor estratègic que dissenya, coordina i acompanya cada projecte, connectant el lideratge espanyol amb especialistes de confiança als Estats Units.",
+    "missionTitle": "Missió",
+    "mission": "Reduir la incertesa durant l'expansió internacional proporcionant a les empreses espanyoles un acompanyament estratègic integral i un accés coordinat a especialistes de confiança als Estats Units.",
+    "visionTitle": "Visió",
+    "vision": "Convertir-nos en la consultora boutique de referència per a empreses espanyoles que desitgen establir-se amb èxit al mercat estatunidenc.",
+    "valuesTitle": "Valors",
+    "values": {
+      "trust": "Confiança",
+      "transparency": "Transparència",
+      "closeness": "Proximitat",
+      "excellence": "Excel·lència",
+      "innovation": "Innovació",
+      "collaboration": "Col·laboració",
+      "results": "Orientació a resultats"
+    },
+    "promiseTitle": "Promesa de marca",
+    "promise": "Reduir la incertesa. Impulsar el creixement internacional."
+  },
+  "why": {
+    "title": "Per què Nexo Mobility",
+    "subtitle": "Reduir la incertesa. Impulsar el creixement internacional.",
+    "items": {
+      "trust": {
+        "title": "Confiança i transparència",
+        "description": "Comunicació clara, diagnòstics honestos i sense tàctiques de venda agressives."
+      },
+      "single": {
+        "title": "Un únic interlocutor estratègic",
+        "description": "Centralitzem la gestió del projecte perquè no hagis de coordinar proveïdors en solitari."
+      },
+      "ecosystem": {
+        "title": "Ecosistema d'experts",
+        "description": "Especialistes legals, fiscals, migratoris, de talent i operacions, coordinats per nosaltres."
+      },
+      "results": {
+        "title": "Orientació a resultats",
+        "description": "Cada engagement s'estructura al voltant de fites que avancen la teva expansió."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntes freqüents",
+    "items": {
+      "who": {
+        "q": "Per a qui és Nexo Mobility?",
+        "a": "Per a pimes espanyoles, empreses familiars i industrials, tecnològiques, d'alimentació i de serveis que es preparen per entrar o créixer als Estats Units."
+      },
+      "diff": {
+        "q": "En què us diferencieu d'una consultora tradicional?",
+        "a": "No venem serveis aïllats. Dissenyem i coordinem projectes internacionals complets a través d'un partner de confiança i un ecosistema contrastat d'especialistes."
+      },
+      "start": {
+        "q": "Per on comencem?",
+        "a": "La majoria dels clients comença amb una Discovery Call i, a continuació, Essential per validar l'oportunitat, o Professional quan ja estan a punt per implementar."
+      },
+      "locations": {
+        "q": "On sou?",
+        "a": "Operem entre Miami i Barcelona, connectant empreses espanyoles amb el mercat estatunidenc."
+      }
+    }
+  },
+  "contact": {
+    "title": "Parlem de la teva expansió",
+    "subtitle": "Reserva una Discovery Call o envia'ns un missatge. Et respondrem amb claredat i propers passos concrets.",
+    "locations": "Miami · Barcelona",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email professional",
+      "company": "Empresa",
+      "message": "Com podem ajudar-te?",
+      "submit": "Enviar missatge",
+      "sending": "Enviant…",
+      "success": "Gràcies — ens posarem en contacte aviat.",
+      "error": "S'ha produït un error. Si us plau, escriu-nos per email.",
+      "mailtoHint": "O escriu-nos directament"
+    },
+    "calendlyTitle": "Prefereixes reservar directament?",
+    "calendlyCta": "Reservar Discovery Call",
+    "calendlyUnavailable": "L'enllaç de reserva estarà disponible aviat; mentrestant, escriu-nos per email."
   },
   "footer": {
-    "rights": "Tots els drets reservats."
+    "rights": "Tots els drets reservats.",
+    "privacy": "Política de privacitat",
+    "terms": "Termes",
+    "tagline": "Consulting · Technology · Global Connections"
+  },
+  "common": {
+    "learnMore": "Saber-ne més",
+    "contactUs": "Contactar"
   }
 }
-

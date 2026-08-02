@@ -1,65 +1,274 @@
 {
+  "meta": {
+    "homeTitle": "Nexo Mobility — Expand into the U.S. with confidence",
+    "homeDescription": "Boutique consulting for Spanish companies expanding into the United States. One strategic partner coordinating every stage of your international growth."
+  },
   "nav": {
     "home": "Home",
     "services": "Services",
+    "industries": "Industries",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "cta": "Book a Call",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
-    "title": "Streamline Your Expansion to the United States",
-    "subtitle": "Expert global mobility services with deep understanding of Catalan culture and corporate America",
-    "cta": "Book a Consultation"
+    "brand": "Nexo Mobility",
+    "title": "Expand your business into the U.S. with confidence.",
+    "subtitle": "Nexo Mobility helps Spanish companies enter the United States by coordinating every stage of the journey through one trusted strategic partner.",
+    "ctaPrimary": "Book a Discovery Call",
+    "ctaSecondary": "Download our Expansion Guide",
+    "ctaSecondaryFallback": "Explore our packages"
   },
-  "services": {
-    "title": "Our Services",
-    "subtitle": "Comprehensive support for your US expansion",
-    "immigration": {
-      "title": "Immigration Services",
-      "description": "Complete immigration documentation support for your business and employees, ensuring compliance with US regulations."
-    },
-    "supplier": {
-      "title": "Supplier Relationships",
-      "description": "Leverage our extensive network to establish and maintain strategic supplier relationships across the United States."
-    },
-    "manufacturing": {
-      "title": "Manufacturing Facilities",
-      "description": "Expert guidance on identifying, evaluating, and establishing manufacturing facilities that align with your business needs."
-    },
-    "corporate": {
-      "title": "Corporate America Expertise",
-      "description": "Navigate the complexities of US corporate culture, regulations, and business practices with confidence."
-    },
-    "cultural": {
-      "title": "Cultural Bridge",
-      "description": "Benefit from our unique understanding of both Catalan culture and American business environment."
+  "whatWeDo": {
+    "title": "What we do",
+    "subtitle": "We do not sell isolated services. We design, coordinate, and accompany international projects from first assessment to long-term growth.",
+    "items": {
+      "consulting": {
+        "title": "Strategic consulting",
+        "description": "Clarify the opportunity, the risks, and the most suitable path into the U.S. market."
+      },
+      "expansion": {
+        "title": "International expansion",
+        "description": "End-to-end coordination from assessment through market entry and ongoing follow-up."
+      },
+      "ecosystem": {
+        "title": "Trusted ecosystem",
+        "description": "Access specialists in legal, tax, immigration, talent, and operations through a single point of contact."
+      },
+      "partnership": {
+        "title": "Long-term partnership",
+        "description": "Remain with you beyond launch, with advisory support that scales alongside your U.S. presence."
+      }
     }
   },
-  "value": {
-    "title": "Why Choose Us",
-    "catalan": {
-      "title": "Catalan Language & Culture",
-      "description": "Native-level understanding of Catalan language and culture, ensuring seamless communication and cultural alignment."
-    },
-    "network": {
-      "title": "Established Network",
-      "description": "Proven relationships with suppliers, manufacturers, and service providers across the United States."
-    },
-    "efficiency": {
-      "title": "Streamlined Process",
-      "description": "A comprehensive package of services designed to accelerate your expansion timeline and reduce complexity."
-    },
-    "expertise": {
-      "title": "Corporate America Expertise",
-      "description": "Deep knowledge of US business requirements, regulations, and corporate culture to ensure your success."
+  "howWeWork": {
+    "title": "How we work",
+    "subtitle": "A clear journey from the first conversation to a lasting partnership.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery Call",
+        "description": "We understand your objectives, timeline, and constraints."
+      },
+      "assessment": {
+        "title": "Assessment",
+        "description": "We evaluate viability and map a practical expansion roadmap."
+      },
+      "proposal": {
+        "title": "Proposal",
+        "description": "We define scope, package, and the specialist team your project requires."
+      },
+      "project": {
+        "title": "Project",
+        "description": "We coordinate market entry with transparent reporting at every stage."
+      },
+      "partner": {
+        "title": "Long-term partner",
+        "description": "We provide ongoing advisory as your U.S. operation matures."
+      }
     }
   },
-  "cta": {
-    "title": "Ready to Expand to the United States?",
-    "subtitle": "Let's discuss how we can help streamline your expansion journey",
-    "button": "Book a Consultation"
+  "packages": {
+    "eyebrow": "Nexo Mobility",
+    "title": "Our support offering",
+    "subtitle": "Packages designed for every stage of your expansion into the United States.",
+    "addonsTitle": "Available add-ons",
+    "essential": {
+      "name": "Essential",
+      "tagline": "Validate your opportunity",
+      "price": "From XXX €",
+      "description": "Ideal for companies seeking to assess the viability of expanding into the United States.",
+      "cta": "Get started",
+      "features": [
+        "Discovery Workshop",
+        "Initial diagnosis",
+        "Expansion roadmap",
+        "Strategic recommendations",
+        "Executive presentation meeting"
+      ]
+    },
+    "professional": {
+      "name": "Professional",
+      "tagline": "Implement with confidence",
+      "price": "From XXX €",
+      "description": "The most complete package for beginning your expansion with specialised support.",
+      "cta": "Most popular",
+      "featured": "Featured",
+      "features": [
+        "Everything included in Essential",
+        "Project coordination",
+        "Access to our expert ecosystem",
+        "Support throughout market entry",
+        "Biweekly meetings",
+        "Document management and reporting"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "Comprehensive support",
+      "price": "Contact us",
+      "description": "For complex projects that require full programme management and a dedicated team.",
+      "cta": "Contact us",
+      "features": [
+        "Everything included in Professional",
+        "Dedicated team",
+        "End-to-end project coordination",
+        "Full market-entry management",
+        "Priority support",
+        "Continuous strategic advisory"
+      ]
+    },
+    "addons": [
+      "Targeted market studies",
+      "Distributor or commercial partner search",
+      "Legal and tax coordination",
+      "Regulatory compliance (FDA and others)",
+      "Talent selection and hiring",
+      "Immigration services",
+      "Specialised supplier selection",
+      "Temporary representation in the United States",
+      "Intercultural training and team preparation",
+      "Monthly follow-up (retainer)",
+      "Trade show and event representation",
+      "Additional services tailored to your project"
+    ]
+  },
+  "industries": {
+    "title": "Industries we serve",
+    "subtitle": "Sector-specific insight for Spanish companies entering the U.S. market.",
+    "items": {
+      "food": {
+        "title": "Food",
+        "description": "Market entry, regulatory pathways, and distribution for food and beverage brands."
+      },
+      "technology": {
+        "title": "Technology",
+        "description": "Go-to-market strategy, partnerships, and operational setup for technology companies."
+      },
+      "manufacturing": {
+        "title": "Manufacturing",
+        "description": "Facilities, suppliers, and supply-chain coordination for industrial expansion."
+      },
+      "healthcare": {
+        "title": "Healthcare",
+        "description": "Compliance-minded expansion for health and life sciences organisations."
+      },
+      "consumer": {
+        "title": "Consumer Goods",
+        "description": "Retail, e-commerce, and brand positioning strategies for the U.S. consumer."
+      }
+    }
+  },
+  "cases": {
+    "title": "Success stories",
+    "subtitle": "Illustrative examples of how we support expansion projects.",
+    "note": "Anonymised examples for demonstration — replace with client-approved case studies.",
+    "items": {
+      "one": {
+        "sector": "Food & Beverage",
+        "title": "Market validation before a U.S. launch",
+        "description": "A Spanish specialty foods company used Essential to validate demand, regulatory requirements, and a phased distribution roadmap before committing capital."
+      },
+      "two": {
+        "sector": "Industrial",
+        "title": "Coordinated market entry with local partners",
+        "description": "A mid-sized manufacturer engaged Professional to coordinate legal setup, supplier selection, and biweekly execution oversight across Miami and the Midwest."
+      }
+    }
+  },
+  "about": {
+    "title": "About Nexo Mobility",
+    "subtitle": "A boutique consultancy dedicated to accompanying Spanish companies as they expand into the United States.",
+    "storyTitle": "Our story",
+    "story": "Nexo Mobility was founded to reduce the uncertainty of international expansion. We serve as the single strategic partner that designs, coordinates, and accompanies each project — connecting Spanish leadership with trusted specialists in the United States.",
+    "missionTitle": "Mission",
+    "mission": "To reduce uncertainty during international expansion by providing Spanish companies with comprehensive strategic support and coordinated access to trusted specialists in the United States.",
+    "visionTitle": "Vision",
+    "vision": "To become the boutique consultancy of reference for Spanish companies seeking to establish themselves successfully in the U.S. market.",
+    "valuesTitle": "Values",
+    "values": {
+      "trust": "Trust",
+      "transparency": "Transparency",
+      "closeness": "Approachability",
+      "excellence": "Excellence",
+      "innovation": "Innovation",
+      "collaboration": "Collaboration",
+      "results": "Results focus"
+    },
+    "promiseTitle": "Brand promise",
+    "promise": "Reducing uncertainty. Enabling international growth."
+  },
+  "why": {
+    "title": "Why Nexo Mobility",
+    "subtitle": "Reducing uncertainty. Enabling international growth.",
+    "items": {
+      "trust": {
+        "title": "Trust and transparency",
+        "description": "Clear communication, honest assessments, and no aggressive sales tactics."
+      },
+      "single": {
+        "title": "One strategic partner",
+        "description": "We centralise project management so you never have to coordinate vendors alone."
+      },
+      "ecosystem": {
+        "title": "Expert ecosystem",
+        "description": "Legal, tax, immigration, talent, and operations specialists — coordinated by us."
+      },
+      "results": {
+        "title": "Focus on results",
+        "description": "Every engagement is structured around milestones that advance your expansion."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": {
+      "who": {
+        "q": "Who is Nexo Mobility for?",
+        "a": "Spanish SMEs, family businesses, and industrial, technology, food, and services companies preparing to enter or grow in the United States."
+      },
+      "diff": {
+        "q": "How do you differ from a traditional consultancy?",
+        "a": "We do not sell isolated services. We design and coordinate complete international projects through one trusted partner and a vetted ecosystem of specialists."
+      },
+      "start": {
+        "q": "Where should we begin?",
+        "a": "Most clients start with a Discovery Call, then Essential to validate the opportunity — or Professional when they are ready to implement."
+      },
+      "locations": {
+        "q": "Where are you based?",
+        "a": "We operate between Miami and Barcelona, bridging Spanish companies and the U.S. market."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let us talk about your expansion",
+    "subtitle": "Book a Discovery Call or send us a message. We will respond with clarity and practical next steps.",
+    "locations": "Miami · Barcelona",
+    "form": {
+      "name": "Full name",
+      "email": "Work email",
+      "company": "Company",
+      "message": "How can we help?",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thank you — we will be in touch shortly.",
+      "error": "Something went wrong. Please email us directly.",
+      "mailtoHint": "Or email us directly"
+    },
+    "calendlyTitle": "Prefer to book directly?",
+    "calendlyCta": "Book a Discovery Call",
+    "calendlyUnavailable": "The scheduling link will be available shortly — please reach us by email in the meantime."
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms",
+    "tagline": "Consulting · Technology · Global Connections"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "contactUs": "Contact us"
   }
 }
-

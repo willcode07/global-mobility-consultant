@@ -1,61 +1,130 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { Menu, X } from 'lucide-react';
 import { locales } from '@/i18n';
+import Logo from './Logo';
+import CalendlyButton from './CalendlyButton';
+
+const links = [
+  { key: 'services', hash: '#services' },
+  { key: 'industries', hash: '#industries' },
+  { key: 'about', hash: '#about' },
+  { key: 'contact', hash: '#contact' },
+] as const;
+
+function goToLocale(newLocale: string) {
+  const hash = window.location.hash || '';
+  window.location.assign(`/${newLocale}/${hash}`);
+}
 
 export default function Navigation() {
   const t = useTranslations('nav');
   const locale = useLocale();
-  const pathname = usePathname();
+  const [open, setOpen] = useState(false);
 
-  const switchLocale = (newLocale: string) => {
-    const pathWithoutLocale = pathname.replace(`/${locale}`, '') || '/';
-    return `/${newLocale}${pathWithoutLocale}`;
-  };
+  const homePath = `/${locale}/`;
 
   return (
-    <nav className="bg-white shadow-sm border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-8">
-            <Link href={`/${locale}`} className="text-xl font-bold text-primary-700">
-              Global Mobility
-            </Link>
-            <div className="hidden md:flex space-x-6">
-              <Link href={`/${locale}`} className="text-gray-700 hover:text-primary-600 transition-colors">
-                {t('home')}
-              </Link>
-              <a href="#services" className="text-gray-700 hover:text-primary-600 transition-colors">
-                {t('services')}
-              </a>
-              <a href="#value" className="text-gray-700 hover:text-primary-600 transition-colors">
-                {t('about')}
-              </a>
-              <a href="#contact" className="text-gray-700 hover:text-primary-600 transition-colors">
-                {t('contact')}
-              </a>
-            </div>
-          </div>
-          <div className="flex items-center space-x-2">
+    <header className="sticky top-0 z-40 border-b border-nexo-light/80 bg-white/90 backdrop-blur-md">
+      <nav className="mx-auto flex h-16 max-w-content items-center justify-between px-4 sm:px-6 lg:px-8">
+        <Logo href={homePath} />
+
+        <div className="hidden items-center gap-8 md:flex">
+          {links.map((link) => (
+            <a
+              key={link.key}
+              href={`${homePath}${link.hash}`}
+              className="text-sm font-medium text-nexo-gray transition-colors hover:text-nexo-purple"
+            >
+              {t(link.key)}
+            </a>
+          ))}
+        </div>
+
+        <div className="hidden items-center gap-3 md:flex">
+          <div className="flex items-center gap-1 rounded-full bg-nexo-light p-1">
             {locales.map((loc) => (
-              <Link
+              <a
                 key={loc}
-                href={switchLocale(loc)}
-                className={`px-3 py-1 rounded text-sm font-medium transition-colors ${
+                href={`/${loc}/`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  goToLocale(loc);
+                }}
+                className={`rounded-full px-2.5 py-1 text-xs font-semibold uppercase transition-colors ${
                   locale === loc
-                    ? 'bg-primary-100 text-primary-700'
-                    : 'text-gray-600 hover:text-primary-600 hover:bg-gray-50'
+                    ? 'bg-white text-nexo-purple shadow-sm'
+                    : 'text-nexo-gray hover:text-nexo-purple'
                 }`}
               >
-                {loc.toUpperCase()}
-              </Link>
+                {loc}
+              </a>
             ))}
           </div>
+          <CalendlyButton
+            variant="primary"
+            size="sm"
+            label={t('cta')}
+            fallbackHref={`${homePath}#contact`}
+          />
         </div>
-      </div>
-    </nav>
+
+        <button
+          type="button"
+          className="inline-flex items-center justify-center rounded-lg p-2 text-nexo-black md:hidden"
+          onClick={() => setOpen((v) => !v)}
+          aria-label={open ? t('closeMenu') : t('openMenu')}
+        >
+          {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        </button>
+      </nav>
+
+      {open ? (
+        <div className="border-t border-nexo-light bg-white md:hidden">
+          <div className="mx-auto flex max-w-content flex-col gap-1 px-4 py-4">
+            {links.map((link) => (
+              <a
+                key={link.key}
+                href={`${homePath}${link.hash}`}
+                onClick={() => setOpen(false)}
+                className="rounded-lg px-3 py-2.5 text-sm font-medium text-nexo-black hover:bg-nexo-light"
+              >
+                {t(link.key)}
+              </a>
+            ))}
+            <div className="mt-3 flex items-center justify-between gap-3 border-t border-nexo-light pt-4">
+              <div className="flex gap-1">
+                {locales.map((loc) => (
+                  <a
+                    key={loc}
+                    href={`/${loc}/`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setOpen(false);
+                      goToLocale(loc);
+                    }}
+                    className={`rounded-full px-3 py-1 text-xs font-semibold uppercase ${
+                      locale === loc
+                        ? 'bg-nexo-purple text-white'
+                        : 'bg-nexo-light text-nexo-gray'
+                    }`}
+                  >
+                    {loc}
+                  </a>
+                ))}
+              </div>
+              <CalendlyButton
+                variant="primary"
+                size="sm"
+                label={t('cta')}
+                fallbackHref={`${homePath}#contact`}
+              />
+            </div>
+          </div>
+        </div>
+      ) : null}
+    </header>
   );
 }
-

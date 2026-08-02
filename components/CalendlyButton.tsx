@@ -1,52 +1,83 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
+import { X } from 'lucide-react';
+import Button from './Button';
+import { siteConfig } from '@/lib/site';
 
-interface CalendlyButtonProps {
-  variant?: 'default' | 'light';
-}
+type CalendlyButtonProps = {
+  variant?: 'primary' | 'secondary' | 'ghost' | 'accent';
+  size?: 'sm' | 'md' | 'lg';
+  pill?: boolean;
+  label?: string;
+  className?: string;
+  fallbackHref?: string;
+};
 
-export default function CalendlyButton({ variant = 'default' }: CalendlyButtonProps) {
-  const t = useTranslations('hero');
-  const [showCalendly, setShowCalendly] = useState(false);
+export default function CalendlyButton({
+  variant = 'primary',
+  size = 'lg',
+  pill = false,
+  label,
+  className,
+  fallbackHref,
+}: CalendlyButtonProps) {
+  const t = useTranslations();
+  const [open, setOpen] = useState(false);
+  const url = siteConfig.calendlyUrl;
+  const email = siteConfig.contactEmail;
 
-  // Replace with your actual Calendly URL
-  const calendlyUrl = 'https://calendly.com/your-username';
+  const buttonLabel = label || t('hero.ctaPrimary');
 
-  const buttonClasses = variant === 'light'
-    ? 'bg-white text-primary-600 hover:bg-primary-50 border-2 border-white'
-    : 'bg-primary-600 text-white hover:bg-primary-700';
+  if (!url) {
+    const href =
+      fallbackHref ||
+      (email ? `mailto:${email}?subject=Discovery%20Call` : '/contact');
+
+    return (
+      <Button href={href} variant={variant} size={size} pill={pill} className={className}>
+        {buttonLabel}
+      </Button>
+    );
+  }
 
   return (
     <>
-      <button
-        onClick={() => setShowCalendly(true)}
-        className={`px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 ${buttonClasses}`}
+      <Button
+        variant={variant}
+        size={size}
+        pill={pill}
+        className={className}
+        onClick={() => setOpen(true)}
       >
-        {t('cta')}
-      </button>
-      {showCalendly && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
-          <div className="bg-white rounded-lg w-full max-w-4xl h-[90vh] relative">
+        {buttonLabel}
+      </Button>
+
+      {open ? (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-nexo-black/60 p-4 backdrop-blur-sm"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Calendly"
+        >
+          <div className="relative h-[90vh] w-full max-w-4xl overflow-hidden rounded-2xl bg-white shadow-2xl">
             <button
-              onClick={() => setShowCalendly(false)}
-              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl font-bold z-10 bg-white rounded-full w-8 h-8 flex items-center justify-center shadow-md"
+              type="button"
+              onClick={() => setOpen(false)}
+              className="absolute right-3 top-3 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-white text-nexo-gray shadow-md hover:text-nexo-black"
+              aria-label="Close"
             >
-              ×
+              <X className="h-5 w-5" />
             </button>
             <iframe
-              src={calendlyUrl}
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              className="rounded-lg"
-              title="Calendly Scheduling"
+              src={url}
+              title="Calendly"
+              className="h-full w-full border-0"
             />
           </div>
         </div>
-      )}
+      ) : null}
     </>
   );
 }
-

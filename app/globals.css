@@ -3,18 +3,60 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 255, 255, 255;
-  --background-end-rgb: 255, 255, 255;
+  --nexo-purple: #5b21b6;
+  --nexo-accent: #14b8a6;
+  --nexo-black: #111111;
+  --nexo-gray: #6b7280;
+  --nexo-light: #f3f4f6;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Match sticky header height (h-16) so section tops land just below the nav */
+  scroll-padding-top: 4rem;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--nexo-black);
+  background: #ffffff;
+  font-family: var(--font-inter), sans-serif;
 }
 
+@layer components {
+  .section-ruled-title {
+    @apply relative inline-flex items-center gap-3 font-heading text-xl font-bold uppercase tracking-[0.14em] text-nexo-purple md:gap-4 md:text-2xl;
+  }
+
+  .section-ruled-title::before,
+  .section-ruled-title::after {
+    content: '';
+    @apply hidden h-px w-10 bg-nexo-purple/40 md:block lg:w-16;
+  }
+
+  .section-ruled-title::before {
+    box-shadow: -5px 0 0 1.5px #5b21b6;
+  }
+
+  .section-ruled-title::after {
+    box-shadow: 5px 0 0 1.5px #5b21b6;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.7s ease-out both;
+}
+
+.animate-fade-up-delay {
+  animation: fadeUp 0.8s ease-out 0.1s both;
+}

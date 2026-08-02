@@ -1,42 +1,21 @@
-import type { Metadata } from 'next';
+'use client';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
-const target = `${basePath}/en/`;
-
-export const metadata: Metadata = {
-  title: 'Global Mobility Consultant',
-  description: 'Redirecting…',
-  robots: { index: false, follow: false },
-  other: {
-    'http-equiv:refresh': `0; url=${target}`,
-  },
-};
+import { useEffect } from 'react';
 
 export default function RootPage() {
+  useEffect(() => {
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    window.location.replace(`${basePath}/en/`);
+  }, []);
+
   return (
     <html lang="en">
       <head>
-        <meta httpEquiv="refresh" content={`0; url=${target}`} />
-        <link rel="canonical" href={target} />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.location.replace(${JSON.stringify(target)});`,
-          }}
-        />
+        <meta httpEquiv="refresh" content={`0;url=${process.env.NEXT_PUBLIC_BASE_PATH || ''}/en/`} />
       </head>
-      <body
-        style={{
-          fontFamily: 'system-ui, sans-serif',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          minHeight: '100vh',
-          margin: 0,
-          color: '#374151',
-        }}
-      >
+      <body>
         <p>
-          Redirecting to <a href={target}>{target}</a>…
+          <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/en/`}>Continue to Nexo Mobility</a>
         </p>
       </body>
     </html>

@@ -1,11 +1,17 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 import Hero from '@/components/Hero';
-import Services from '@/components/Services';
-import ValueProposition from '@/components/ValueProposition';
-import CTA from '@/components/CTA';
+import WhatWeDo from '@/components/WhatWeDo';
+import HowWeWork from '@/components/HowWeWork';
+import ServicesSection from '@/components/ServicesSection';
+import IndustriesGrid from '@/components/IndustriesGrid';
+import CaseStudies from '@/components/CaseStudies';
+import AboutSection from '@/components/AboutSection';
+import WhyNexo from '@/components/WhyNexo';
+import FAQ from '@/components/FAQ';
+import ContactSection from '@/components/ContactSection';
 
 export default function Home({
-  params: { locale }
+  params: { locale },
 }: {
   params: { locale: string };
 }) {
@@ -14,9 +20,15 @@ export default function Home({
   return (
     <>
       <Hero />
-      <Services />
-      <ValueProposition />
-      <CTA />
+      <WhatWeDo />
+      <HowWeWork />
+      <ServicesSection />
+      <IndustriesGrid />
+      <CaseStudies />
+      <AboutSection />
+      <WhyNexo />
+      <FAQ />
+      <ContactSection />
     </>
   );
 }

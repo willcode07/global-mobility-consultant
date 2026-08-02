@@ -1,113 +1,59 @@
-# Global Mobility Consultant Website
+# Nexo Mobility
 
-A modern, clean website for a global mobility consultant specializing in helping companies expand to the United States. The site features multi-language support (English, Spanish, and Catalan) and integrates with Calendly for consultation bookings.
+Marketing website for **Nexo Mobility** — boutique consulting for Spanish companies expanding into the United States.
 
-**Live demo:** https://willcode07.github.io/global-mobility-consultant/
+Built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and `next-intl` (English, Spanish & Catalan). Single-page scrollable marketing site. Static-export compatible for GitHub Pages; Vercel-ready by default.
 
-## Features
+## Getting started
 
-- 🌍 **Multi-language Support**: English, Spanish, and Catalan
-- 📅 **Calendly Integration**: Book consultations directly from the site
-- 🎨 **Clean, Modern Design**: Professional and minimalist UI
-- 📱 **Fully Responsive**: Works beautifully on all devices
-- ⚡ **Next.js 14**: Built with the latest Next.js App Router
-- 🎯 **TypeScript**: Type-safe development
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ installed
-- npm or yarn package manager
-
-### Installation
-
-1. Install dependencies:
 ```bash
 npm install
-```
-
-2. Update Calendly URL:
-   - Open `components/CalendlyButton.tsx`
-   - Replace `'https://calendly.com/your-username'` with your actual Calendly URL
-
-3. Run the development server:
-```bash
+cp .env.example .env.local   # optional — add Calendly, email, LinkedIn, HubSpot
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+Open [http://localhost:3000](http://localhost:3000) (redirects to `/en/`).
 
-## Project Structure
+## Environment variables
+
+| Variable | Purpose |
+|----------|---------|
+| `NEXT_PUBLIC_CALENDLY_URL` | Calendly booking URL (modal). Falls back to contact/mailto. |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | Contact email in footer, form, and CTA fallbacks |
+| `NEXT_PUBLIC_LINKEDIN_URL` | LinkedIn profile/company URL |
+| `NEXT_PUBLIC_EXPANSION_GUIDE_URL` | PDF/link for hero secondary CTA |
+| `NEXT_PUBLIC_HUBSPOT_PORTAL_ID` / `NEXT_PUBLIC_HUBSPOT_FORM_ID` | HubSpot form submit |
+| `NEXT_PUBLIC_SITE_URL` | Canonical site URL for sitemap/SEO |
+| `GITHUB_PAGES=true` | Enables `basePath` for GitHub Pages builds |
+
+## Project structure
 
 ```
-global-mobility-consultant/
-├── app/
-│   ├── [locale]/          # Locale-specific pages
-│   ├── globals.css        # Global styles
-│   └── layout.tsx         # Root layout
-├── components/
-│   ├── Navigation.tsx     # Navigation with language switcher
-│   ├── Hero.tsx          # Hero section
-│   ├── Services.tsx      # Services section
-│   ├── ValueProposition.tsx  # Value proposition section
-│   ├── CTA.tsx           # Call-to-action section
-│   ├── CalendlyButton.tsx # Calendly integration
-│   └── Footer.tsx        # Footer component
-├── messages/             # Translation files
-│   ├── en.json          # English translations
-│   ├── es.json          # Spanish translations
-│   └── ca.json          # Catalan translations
-├── i18n.ts              # i18n configuration
-└── middleware.ts        # Next.js middleware for routing
+app/[locale]/          # Locale home (single scrollable page)
+components/            # Section components and shared primitives
+messages/en.json       # English copy
+messages/es.json       # Spanish copy
+messages/ca.json       # Catalan copy
+public/brand/          # Logo mark + favicons
+public/images/         # Hero imagery
+lib/site.ts            # Site config / env helpers
 ```
 
-## Customization
+Homepage sections (anchor targets): `#services`, `#industries`, `#about`, `#contact` (plus `#what-we-do`, `#how-we-work`, `#cases`, `#why`, `#faq`).
 
-### Update Calendly Integration
+## Scripts
 
-Edit `components/CalendlyButton.tsx` and replace the `calendlyUrl` constant with your Calendly scheduling page URL.
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Local development |
+| `npm run build` | Production build (Vercel / any host) |
+| `npm run build:gh-pages` | Static export with GitHub Pages `basePath` |
+| `npm run lint` | ESLint |
 
-### Modify Content
+## Content
 
-All text content is stored in the `messages/` directory. Edit the JSON files to update content in each language.
-
-### Styling
-
-The project uses Tailwind CSS. Customize colors and styles in `tailwind.config.js`.
-
-## Build for Production
-
-```bash
-npm run build
-npm start
-```
-
-## Deployment
-
-### GitHub Pages (current)
-
-The site auto-deploys to GitHub Pages on every push to `main` via
-[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). The workflow runs
-`GITHUB_PAGES=true next build`, which produces a static export in `out/` with the
-correct `basePath` (`/global-mobility-consultant`) and uploads it to Pages.
-
-To enable Pages the first time, go to **Settings → Pages** on GitHub and set
-**Source** to **GitHub Actions**.
-
-To produce the same static build locally:
-
-```bash
-npm run build:gh-pages
-npx serve out  # optional preview
-```
-
-### Other platforms
-
-The project also runs on any Next.js host (Vercel, Netlify, etc.) — just run
-`npm run build` (without `GITHUB_PAGES=true`) to skip the basePath.
+All marketing copy lives in `messages/en.json`, `messages/es.json`, and `messages/ca.json`, including service packages, add-ons, FAQs, and case-study placeholders. Package prices currently use `XXX €` placeholders until the client confirms numbers.
 
 ## License
 
-Private - All rights reserved.
-
+Private — all rights reserved.
