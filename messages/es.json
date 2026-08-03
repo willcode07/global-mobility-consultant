@@ -9,14 +9,13 @@
     "services": "Servicios",
     "ecosystem": "Ecosistema",
     "contact": "Contacto",
-    "cta": "Reservar llamada",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
   },
   "hero": {
     "title": "Tu partner de confianza para una expansión coordinada a EE. UU.",
     "subtitle": "Coordinamos una red cuidadosamente seleccionada de especialistas de confianza en legal, fiscal, inmigración, RR. HH. y servicios empresariales a través de un único punto de contacto, haciendo tu expansión a EE. UU. más simple, rápida y plenamente coordinada.",
-    "ctaPrimary": "Reservar Discovery Call",
+    "ctaPrimary": "Contáctanos",
     "ctaSecondary": "Cómo funciona"
   },
   "howWeWork": {
@@ -104,7 +103,7 @@
       "tagline": "Implementa con éxito",
       "price": "Desde XXX €",
       "description": "El paquete más completo para iniciar tu proceso de expansión con coordinación especializada.",
-      "cta": "Más popular",
+      "cta": "Contáctanos",
       "featured": "Destacado",
       "features": [
         "Todo lo incluido en Essential",
@@ -220,7 +219,7 @@
   },
   "contact": {
     "title": "Hablemos de tu expansión",
-    "subtitle": "Reserva una Discovery Call o envíanos un mensaje. Te responderemos con claridad y próximos pasos concretos.",
+    "subtitle": "Envíanos un mensaje y te responderemos con claridad y próximos pasos concretos.",
     "locations": "Miami · Barcelona",
     "form": {
       "name": "Nombre completo",
@@ -232,10 +231,7 @@
       "success": "Gracias — nos pondremos en contacto en breve.",
       "error": "Ha ocurrido un error. Por favor, escríbenos por email.",
       "mailtoHint": "O escríbenos directamente"
-    },
-    "calendlyTitle": "¿Prefieres reservar directamente?",
-    "calendlyCta": "Reservar Discovery Call",
-    "calendlyUnavailable": "El enlace de reserva estará disponible en breve; mientras tanto, escríbenos por email."
+    }
   },
   "footer": {
     "rights": "Todos los derechos reservados.",

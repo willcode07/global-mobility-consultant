@@ -8,7 +8,7 @@ Built with Next.js 14 (App Router), TypeScript, Tailwind CSS, and `next-intl` (E
 
 ```bash
 npm install
-cp .env.example .env.local   # optional — add Calendly, email, LinkedIn, HubSpot
+cp .env.example .env.local   # optional — add email, LinkedIn, HubSpot
 npm run dev
 ```
 
@@ -18,10 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) (redirects to `/en/`).
 
 | Variable | Purpose |
 |----------|---------|
-| `NEXT_PUBLIC_CALENDLY_URL` | Calendly booking URL (modal). Falls back to contact/mailto. |
-| `NEXT_PUBLIC_CONTACT_EMAIL` | Contact email in footer, form, and CTA fallbacks |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | Contact email in footer and form mailto fallback |
 | `NEXT_PUBLIC_LINKEDIN_URL` | LinkedIn profile/company URL |
-| `NEXT_PUBLIC_EXPANSION_GUIDE_URL` | PDF/link for hero secondary CTA |
+| `NEXT_PUBLIC_EXPANSION_GUIDE_URL` | Optional PDF/link for resources |
 | `NEXT_PUBLIC_HUBSPOT_PORTAL_ID` / `NEXT_PUBLIC_HUBSPOT_FORM_ID` | HubSpot form submit |
 | `NEXT_PUBLIC_SITE_URL` | Canonical site URL for sitemap/SEO |
 | `GITHUB_PAGES=true` | Enables `basePath` for GitHub Pages builds |

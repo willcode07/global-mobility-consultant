@@ -5,7 +5,6 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Menu, X } from 'lucide-react';
 import { locales } from '@/i18n';
 import Logo from './Logo';
-import CalendlyButton from './CalendlyButton';
 import { withBasePath } from '@/lib/site';
 
 const links = [
@@ -15,8 +14,41 @@ const links = [
   { key: 'contact', hash: '#contact' },
 ] as const;
 
+/** Page sections in document order — used to restore scroll position on locale switch. */
+const SECTION_IDS = [
+  'home',
+  'how-it-works',
+  'ecosystem',
+  'portal',
+  'services',
+  'industries',
+  'why',
+  'faq',
+  'contact',
+] as const;
+
+function getActiveSectionHash(): string {
+  if (window.location.hash) return window.location.hash;
+
+  // Match sticky nav + scroll-padding-top (4rem)
+  const probeY = 64 + 1;
+  let current: (typeof SECTION_IDS)[number] = 'home';
+
+  for (const id of SECTION_IDS) {
+    const el = document.getElementById(id);
+    if (!el) continue;
+    if (el.getBoundingClientRect().top <= probeY) {
+      current = id;
+    } else {
+      break;
+    }
+  }
+
+  return current === 'home' ? '' : `#${current}`;
+}
+
 function goToLocale(newLocale: string) {
-  const hash = window.location.hash || '';
+  const hash = getActiveSectionHash();
   window.location.assign(withBasePath(`/${newLocale}/${hash}`));
 }
 
@@ -44,32 +76,24 @@ export default function Navigation() {
           ))}
         </div>
 
-        <div className="hidden items-center gap-3 md:flex">
-          <div className="flex items-center gap-1 rounded-full bg-nexo-light p-1">
-            {locales.map((loc) => (
-              <a
-                key={loc}
-                href={withBasePath(`/${loc}/`)}
-                onClick={(e) => {
-                  e.preventDefault();
-                  goToLocale(loc);
-                }}
-                className={`rounded-full px-2.5 py-1 text-xs font-semibold uppercase transition-colors ${
-                  locale === loc
-                    ? 'bg-white text-nexo-purple shadow-sm'
-                    : 'text-nexo-gray hover:text-nexo-purple'
-                }`}
-              >
-                {loc}
-              </a>
-            ))}
-          </div>
-          <CalendlyButton
-            variant="primary"
-            size="sm"
-            label={t('cta')}
-            fallbackHref={`${homePath}#contact`}
-          />
+        <div className="hidden items-center gap-1 rounded-full bg-nexo-light p-1 md:flex">
+          {locales.map((loc) => (
+            <a
+              key={loc}
+              href={withBasePath(`/${loc}/`)}
+              onClick={(e) => {
+                e.preventDefault();
+                goToLocale(loc);
+              }}
+              className={`rounded-full px-2.5 py-1 text-xs font-semibold uppercase transition-colors ${
+                locale === loc
+                  ? 'bg-white text-nexo-purple shadow-sm'
+                  : 'text-nexo-gray hover:text-nexo-purple'
+              }`}
+            >
+              {loc}
+            </a>
+          ))}
         </div>
 
         <button
@@ -95,33 +119,25 @@ export default function Navigation() {
                 {t(link.key)}
               </a>
             ))}
-            <div className="mt-3 flex items-center justify-between gap-3 border-t border-nexo-light pt-4">
-              <div className="flex gap-1">
-                {locales.map((loc) => (
-                  <a
-                    key={loc}
-                    href={withBasePath(`/${loc}/`)}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setOpen(false);
-                      goToLocale(loc);
-                    }}
-                    className={`rounded-full px-3 py-1 text-xs font-semibold uppercase ${
-                      locale === loc
-                        ? 'bg-nexo-purple text-white'
-                        : 'bg-nexo-light text-nexo-gray'
-                    }`}
-                  >
-                    {loc}
-                  </a>
-                ))}
-              </div>
-              <CalendlyButton
-                variant="primary"
-                size="sm"
-                label={t('cta')}
-                fallbackHref={`${homePath}#contact`}
-              />
+            <div className="mt-3 flex gap-1 border-t border-nexo-light pt-4">
+              {locales.map((loc) => (
+                <a
+                  key={loc}
+                  href={withBasePath(`/${loc}/`)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setOpen(false);
+                    goToLocale(loc);
+                  }}
+                  className={`rounded-full px-3 py-1 text-xs font-semibold uppercase ${
+                    locale === loc
+                      ? 'bg-nexo-purple text-white'
+                      : 'bg-nexo-light text-nexo-gray'
+                  }`}
+                >
+                  {loc}
+                </a>
+              ))}
             </div>
           </div>
         </div>

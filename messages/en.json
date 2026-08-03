@@ -9,14 +9,13 @@
     "services": "Services",
     "ecosystem": "Ecosystem",
     "contact": "Contact",
-    "cta": "Book a Call",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
   "hero": {
     "title": "Your trusted partner for coordinated U.S. expansion.",
     "subtitle": "We coordinate a carefully selected network of trusted specialists across legal, tax, immigration, HR and business services through one dedicated point of contact — making your U.S. expansion simpler, faster and fully coordinated.",
-    "ctaPrimary": "Book a Discovery Call",
+    "ctaPrimary": "Get in touch",
     "ctaSecondary": "How It Works"
   },
   "howWeWork": {
@@ -104,7 +103,7 @@
       "tagline": "Implement with confidence",
       "price": "From XXX €",
       "description": "The most complete package for beginning your expansion with specialised coordination.",
-      "cta": "Most popular",
+      "cta": "Get in touch",
       "featured": "Featured",
       "features": [
         "Everything included in Essential",
@@ -220,7 +219,7 @@
   },
   "contact": {
     "title": "Let us talk about your expansion",
-    "subtitle": "Book a Discovery Call or send us a message. We will respond with clarity and practical next steps.",
+    "subtitle": "Send us a message and we will respond with clarity and practical next steps.",
     "locations": "Miami · Barcelona",
     "form": {
       "name": "Full name",
@@ -232,10 +231,7 @@
       "success": "Thank you — we will be in touch shortly.",
       "error": "Something went wrong. Please email us directly.",
       "mailtoHint": "Or email us directly"
-    },
-    "calendlyTitle": "Prefer to book directly?",
-    "calendlyCta": "Book a Discovery Call",
-    "calendlyUnavailable": "The scheduling link will be available shortly — please reach us by email in the meantime."
+    }
   },
   "footer": {
     "rights": "All rights reserved.",

@@ -2,14 +2,13 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Logo from './Logo';
-import CalendlyButton from './CalendlyButton';
+import Button from './Button';
 import { withBasePath } from '@/lib/site';
 
 export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
   const howItWorksHref = withBasePath(`/${locale}/#how-it-works`);
-  const contactHref = withBasePath(`/${locale}/#contact`);
 
   return (
     <section id="home" className="relative isolate min-h-[85vh] overflow-hidden">
@@ -33,12 +32,9 @@ export default function Hero() {
             {t('subtitle')}
           </p>
           <div className="animate-fade-up-delay mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <CalendlyButton
-              variant="accent"
-              size="lg"
-              label={t('ctaPrimary')}
-              fallbackHref={contactHref}
-            />
+            <Button href={`/${locale}/#contact`} variant="accent" size="lg">
+              {t('ctaPrimary')}
+            </Button>
             <a
               href={howItWorksHref}
               className="inline-flex items-center justify-center rounded-lg border border-white/70 px-8 py-3.5 text-base font-semibold text-white transition-all hover:bg-white/10"

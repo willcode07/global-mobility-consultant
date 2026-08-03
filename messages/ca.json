@@ -9,14 +9,13 @@
     "services": "Serveis",
     "ecosystem": "Ecosistema",
     "contact": "Contacte",
-    "cta": "Reservar trucada",
     "openMenu": "Obrir menú",
     "closeMenu": "Tancar menú"
   },
   "hero": {
     "title": "El teu partner de confiança per a una expansió coordinada als EUA.",
     "subtitle": "Coordindem una xarxa curosament seleccionada d'especialistes de confiança en legal, fiscal, immigració, RRHH i serveis empresarials a través d'un únic punt de contacte, fent la teva expansió als EUA més simple, ràpida i plenament coordinada.",
-    "ctaPrimary": "Reservar Discovery Call",
+    "ctaPrimary": "Contacta'ns",
     "ctaSecondary": "Com funciona"
   },
   "howWeWork": {
@@ -104,7 +103,7 @@
       "tagline": "Implementa amb èxit",
       "price": "Des de XXX €",
       "description": "El paquet més complet per iniciar el teu procés d'expansió amb coordinació especialitzada.",
-      "cta": "Més popular",
+      "cta": "Contacta'ns",
       "featured": "Destacat",
       "features": [
         "Tot el que inclou Essential",
@@ -220,7 +219,7 @@
   },
   "contact": {
     "title": "Parlem de la teva expansió",
-    "subtitle": "Reserva una Discovery Call o envia'ns un missatge. Et respondrem amb claredat i propers passos concrets.",
+    "subtitle": "Envia'ns un missatge i et respondrem amb claredat i propers passos concrets.",
     "locations": "Miami · Barcelona",
     "form": {
       "name": "Nom complet",
@@ -232,10 +231,7 @@
       "success": "Gràcies — ens posarem en contacte aviat.",
       "error": "S'ha produït un error. Si us plau, escriu-nos per email.",
       "mailtoHint": "O escriu-nos directament"
-    },
-    "calendlyTitle": "Prefereixes reservar directament?",
-    "calendlyCta": "Reservar Discovery Call",
-    "calendlyUnavailable": "L'enllaç de reserva estarà disponible aviat; mentrestant, escriu-nos per email."
+    }
   },
   "footer": {
     "rights": "Tots els drets reservats.",

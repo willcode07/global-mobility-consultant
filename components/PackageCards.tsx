@@ -3,7 +3,6 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { Check, Rocket, TrendingUp, Target, Star } from 'lucide-react';
 import Button from './Button';
-import CalendlyButton from './CalendlyButton';
 
 type Tier = 'essential' | 'professional' | 'enterprise';
 
@@ -100,26 +99,15 @@ export default function PackageCards() {
             </ul>
 
             <div className="mt-8">
-              {tier === 'enterprise' ? (
-                <Button
-                  href={`/${locale}/#contact`}
-                  variant={meta.button}
-                  size="lg"
-                  pill
-                  className="w-full"
-                >
-                  {t(`${tier}.cta`)}
-                </Button>
-              ) : (
-                <CalendlyButton
-                  variant={meta.button === 'primary' ? 'primary' : 'secondary'}
-                  size="lg"
-                  pill
-                  label={t(`${tier}.cta`)}
-                  fallbackHref={`/${locale}/#contact`}
-                  className="w-full"
-                />
-              )}
+              <Button
+                href={`/${locale}/#contact`}
+                variant={meta.button}
+                size="lg"
+                pill
+                className="w-full"
+              >
+                {t(`${tier}.cta`)}
+              </Button>
             </div>
           </article>
         );
