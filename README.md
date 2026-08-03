@@ -51,7 +51,7 @@ Homepage sections (anchor targets): `#services`, `#industries`, `#about`, `#cont
 
 ## Content
 
-All marketing copy lives in `messages/en.json`, `messages/es.json`, and `messages/ca.json`, including service packages, add-ons, FAQs, and case-study placeholders. Package prices currently use `XXX €` placeholders until the client confirms numbers.
+All marketing copy lives in `messages/en.json`, `messages/es.json`, and `messages/ca.json`, including service packages, add-on pricing, and FAQs.
 
 ## License
 

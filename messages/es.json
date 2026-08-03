@@ -41,7 +41,7 @@
     }
   },
   "ecosystem": {
-    "title": "Trusted Partner Ecosystem",
+    "title": "Ecosistema de partners de confianza",
     "subtitle": "Un ecosistema de confianza.",
     "intro": "En lugar de buscar y gestionar múltiples proveedores, Nexo Mobility te da acceso a una red cuidadosamente seleccionada de especialistas de confianza que trabajan juntos mediante un único proceso coordinado.",
     "areas": {
@@ -51,7 +51,7 @@
       "hr": "RR. HH. y talento",
       "payroll": "Nómina",
       "banking": "Banca",
-      "compliance": "Compliance",
+      "compliance": "Cumplimiento",
       "logistics": "Logística",
       "marketing": "Marketing",
       "business": "Desarrollo de negocio"
@@ -65,11 +65,11 @@
     "note": "El Portal del Cliente se convertirá en un diferenciador clave de Nexo Mobility: visibilidad del proyecto, documentación y comunicación en un único espacio seguro.",
     "features": {
       "progress": "Estado del proyecto",
-      "timeline": "Timeline",
+      "timeline": "Cronograma",
       "documents": "Documentación",
       "messages": "Mensajes",
       "meetings": "Reuniones",
-      "sla": "SLA de respuesta",
+      "sla": "Tiempo de respuesta (SLA)",
       "tasks": "Tareas",
       "milestones": "Hitos"
     },
@@ -83,13 +83,13 @@
   "packages": {
     "title": "Nuestra oferta de acompañamiento",
     "subtitle": "Paquetes diseñados para cada etapa de tu expansión en Estados Unidos.",
-    "addonsTitle": "Add-ons disponibles",
+    "addonsTitle": "Complementos disponibles",
     "essential": {
       "name": "Essential",
       "tagline": "Valida tu oportunidad",
-      "price": "Desde XXX €",
+      "price": "2.950 €",
       "description": "Ideal para empresas que desean evaluar la viabilidad de su expansión a Estados Unidos.",
-      "cta": "Empezar",
+      "cta": "Contáctanos",
       "features": [
         "Discovery Workshop",
         "Diagnóstico inicial",
@@ -101,7 +101,7 @@
     "professional": {
       "name": "Professional",
       "tagline": "Implementa con éxito",
-      "price": "Desde XXX €",
+      "price": "7.950 €",
       "description": "El paquete más completo para iniciar tu proceso de expansión con coordinación especializada.",
       "cta": "Contáctanos",
       "featured": "Destacado",
@@ -117,9 +117,9 @@
     "enterprise": {
       "name": "Enterprise",
       "tagline": "Acompañamiento integral",
-      "price": "Contactar",
+      "price": "18.000 €",
       "description": "Para proyectos complejos que requieren una gestión integral y un equipo dedicado.",
-      "cta": "Contactar",
+      "cta": "Contáctanos",
       "features": [
         "Todo lo incluido en Professional",
         "Equipo dedicado",
@@ -130,18 +130,14 @@
       ]
     },
     "addons": [
-      "Estudios de mercado específicos",
-      "Búsqueda de distribuidores o partners comerciales",
-      "Coordinación legal y fiscal",
-      "Cumplimiento regulatorio (FDA u otros)",
-      "Selección de talento y contratación",
-      "Servicios migratorios",
-      "Selección de proveedores especializados",
-      "Representación temporal en Estados Unidos",
-      "Formación intercultural y preparación de equipos",
-      "Seguimiento mensual (retainer)",
-      "Representación en ferias y eventos",
-      "Y más servicios adaptados a tu proyecto"
+      { "label": "Estudio de mercado", "price": "1.500 €" },
+      { "label": "Búsqueda de distribuidores", "price": "2.000 €" },
+      { "label": "Coordinación legal y fiscal", "price": "1.200 €" },
+      { "label": "Coordinación migratoria", "price": "900 €" },
+      { "label": "Selección de talento", "price": "1.800 €" },
+      { "label": "Formación intercultural", "price": "850 €" },
+      { "label": "Advisory mensual", "price": "950 €" },
+      { "label": "Coordinación de viaje de negocio", "price": "1.200 €" }
     ]
   },
   "industries": {
@@ -161,7 +157,7 @@
         "description": "Instalaciones, proveedores y coordinación de la cadena de suministro para la expansión industrial."
       },
       "healthcare": {
-        "title": "Healthcare",
+        "title": "Salud",
         "description": "Expansión con foco en el cumplimiento normativo para organizaciones de salud y life sciences."
       },
       "consumer": {
@@ -209,7 +205,7 @@
       },
       "start": {
         "q": "¿Por dónde empezamos?",
-        "a": "La mayoría de los clientes comienza con una Discovery Call y, a continuación, Essential para validar la oportunidad, o Professional cuando ya están listos para implementar."
+        "a": "La mayoría de los clientes comienza con una Discovery Call y, a continuación, Essential (2.950 €) para validar la oportunidad, o Professional (7.950 €) cuando ya están listos para implementar."
       },
       "locations": {
         "q": "¿Dónde estáis?",

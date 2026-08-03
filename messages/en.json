@@ -87,9 +87,9 @@
     "essential": {
       "name": "Essential",
       "tagline": "Validate your opportunity",
-      "price": "From XXX €",
+      "price": "€2,950",
       "description": "Ideal for companies seeking to assess the viability of expanding into the United States.",
-      "cta": "Get started",
+      "cta": "Get in touch",
       "features": [
         "Discovery Workshop",
         "Initial diagnosis",
@@ -101,7 +101,7 @@
     "professional": {
       "name": "Professional",
       "tagline": "Implement with confidence",
-      "price": "From XXX €",
+      "price": "€7,950",
       "description": "The most complete package for beginning your expansion with specialised coordination.",
       "cta": "Get in touch",
       "featured": "Featured",
@@ -117,9 +117,9 @@
     "enterprise": {
       "name": "Enterprise",
       "tagline": "Comprehensive support",
-      "price": "Contact us",
+      "price": "€18,000",
       "description": "For complex projects that require full programme management and a dedicated team.",
-      "cta": "Contact us",
+      "cta": "Get in touch",
       "features": [
         "Everything included in Professional",
         "Dedicated team",
@@ -130,18 +130,14 @@
       ]
     },
     "addons": [
-      "Targeted market studies",
-      "Distributor or commercial partner search",
-      "Legal and tax coordination",
-      "Regulatory compliance (FDA and others)",
-      "Talent selection and hiring",
-      "Immigration services",
-      "Specialised supplier selection",
-      "Temporary representation in the United States",
-      "Intercultural training and team preparation",
-      "Monthly follow-up (retainer)",
-      "Trade show and event representation",
-      "Additional services tailored to your project"
+      { "label": "Market study", "price": "€1,500" },
+      { "label": "Distributor search", "price": "€2,000" },
+      { "label": "Legal and tax coordination", "price": "€1,200" },
+      { "label": "Immigration coordination", "price": "€900" },
+      { "label": "Talent selection", "price": "€1,800" },
+      { "label": "Intercultural training", "price": "€850" },
+      { "label": "Monthly advisory", "price": "€950" },
+      { "label": "Business travel coordination", "price": "€1,200" }
     ]
   },
   "industries": {
@@ -209,7 +205,7 @@
       },
       "start": {
         "q": "Where should we begin?",
-        "a": "Most clients start with a Discovery Call, then Essential to validate the opportunity — or Professional when they are ready to implement."
+        "a": "Most clients start with a Discovery Call, then Essential (€2,950) to validate the opportunity — or Professional (€7,950) when they are ready to implement."
       },
       "locations": {
         "q": "Where are you based?",
@@ -218,7 +214,7 @@
     }
   },
   "contact": {
-    "title": "Let us talk about your expansion",
+    "title": "Let’s talk about your expansion",
     "subtitle": "Send us a message and we will respond with clarity and practical next steps.",
     "locations": "Miami · Barcelona",
     "form": {

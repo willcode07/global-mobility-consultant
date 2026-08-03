@@ -14,7 +14,7 @@
   },
   "hero": {
     "title": "El teu partner de confiança per a una expansió coordinada als EUA.",
-    "subtitle": "Coordindem una xarxa curosament seleccionada d'especialistes de confiança en legal, fiscal, immigració, RRHH i serveis empresarials a través d'un únic punt de contacte, fent la teva expansió als EUA més simple, ràpida i plenament coordinada.",
+    "subtitle": "Coordinem una xarxa cuidadosament seleccionada d'especialistes de confiança en legal, fiscal, immigració, RRHH i serveis empresarials a través d'un únic punt de contacte, fent la teva expansió als EUA més simple, ràpida i plenament coordinada.",
     "ctaPrimary": "Contacta'ns",
     "ctaSecondary": "Com funciona"
   },
@@ -41,9 +41,9 @@
     }
   },
   "ecosystem": {
-    "title": "Trusted Partner Ecosystem",
+    "title": "Ecosistema de partners de confiança",
     "subtitle": "Un ecosistema de confiança.",
-    "intro": "En lloc de cercar i gestionar múltiples proveïdors, Nexo Mobility et dóna accés a una xarxa curosament seleccionada d'especialistes de confiança que treballen junts mitjançant un únic procés coordinat.",
+    "intro": "En lloc de cercar i gestionar múltiples proveïdors, Nexo Mobility et dona accés a una xarxa cuidadosament seleccionada d'especialistes de confiança que treballen junts mitjançant un únic procés coordinat.",
     "areas": {
       "legal": "Legal",
       "tax": "Fiscal i comptabilitat",
@@ -51,9 +51,9 @@
       "hr": "RRHH i talent",
       "payroll": "Nòmina",
       "banking": "Banca",
-      "compliance": "Compliance",
+      "compliance": "Compliment",
       "logistics": "Logística",
-      "marketing": "Marketing",
+      "marketing": "Màrqueting",
       "business": "Desenvolupament de negoci"
     },
     "closing": "Un únic punt de contacte. Un projecte coordinat. Un ecosistema de confiança."
@@ -65,16 +65,16 @@
     "note": "El Portal del Client es convertirà en un diferenciador clau de Nexo Mobility: visibilitat del projecte, documentació i comunicació en un únic espai segur.",
     "features": {
       "progress": "Estat del projecte",
-      "timeline": "Timeline",
+      "timeline": "Cronograma",
       "documents": "Documentació",
       "messages": "Missatges",
       "meetings": "Reunions",
-      "sla": "SLA de resposta",
+      "sla": "Temps de resposta (SLA)",
       "tasks": "Tasques",
       "milestones": "Fites"
     },
     "mock": {
-      "title": "Panel d'expansió",
+      "title": "Panell d'expansió",
       "row1": "Constitució societària",
       "row2": "Tràmits d'immigració",
       "row3": "RRHH i onboarding"
@@ -83,13 +83,13 @@
   "packages": {
     "title": "La nostra oferta d'acompanyament",
     "subtitle": "Paquets dissenyats per a cada etapa de la teva expansió als Estats Units.",
-    "addonsTitle": "Add-ons disponibles",
+    "addonsTitle": "Complements disponibles",
     "essential": {
       "name": "Essential",
       "tagline": "Valida la teva oportunitat",
-      "price": "Des de XXX €",
+      "price": "2.950 €",
       "description": "Ideal per a empreses que desitgen avaluar la viabilitat de la seva expansió als Estats Units.",
-      "cta": "Començar",
+      "cta": "Contacta'ns",
       "features": [
         "Discovery Workshop",
         "Diagnòstic inicial",
@@ -101,7 +101,7 @@
     "professional": {
       "name": "Professional",
       "tagline": "Implementa amb èxit",
-      "price": "Des de XXX €",
+      "price": "7.950 €",
       "description": "El paquet més complet per iniciar el teu procés d'expansió amb coordinació especialitzada.",
       "cta": "Contacta'ns",
       "featured": "Destacat",
@@ -117,9 +117,9 @@
     "enterprise": {
       "name": "Enterprise",
       "tagline": "Acompanyament integral",
-      "price": "Contactar",
+      "price": "18.000 €",
       "description": "Per a projectes complexos que requereixen una gestió integral i un equip dedicat.",
-      "cta": "Contactar",
+      "cta": "Contacta'ns",
       "features": [
         "Tot el que inclou Professional",
         "Equip dedicat",
@@ -130,18 +130,14 @@
       ]
     },
     "addons": [
-      "Estudis de mercat específics",
-      "Cerca de distribuïdors o partners comercials",
-      "Coordinació legal i fiscal",
-      "Compliment regulatori (FDA o altres)",
-      "Selecció de talent i contractació",
-      "Serveis migratoris",
-      "Selecció de proveïdors especialitzats",
-      "Representació temporal als Estats Units",
-      "Formació intercultural i preparació d'equips",
-      "Seguiment mensual (retainer)",
-      "Representació en fires i esdeveniments",
-      "I més serveis adaptats al teu projecte"
+      { "label": "Estudi de mercat", "price": "1.500 €" },
+      { "label": "Cerca de distribuïdors", "price": "2.000 €" },
+      { "label": "Coordinació legal i fiscal", "price": "1.200 €" },
+      { "label": "Coordinació migratòria", "price": "900 €" },
+      { "label": "Selecció de talent", "price": "1.800 €" },
+      { "label": "Formació intercultural", "price": "850 €" },
+      { "label": "Advisory mensual", "price": "950 €" },
+      { "label": "Coordinació de viatge de negoci", "price": "1.200 €" }
     ]
   },
   "industries": {
@@ -161,7 +157,7 @@
         "description": "Instal·lacions, proveïdors i coordinació de la cadena de subministrament per a l'expansió industrial."
       },
       "healthcare": {
-        "title": "Healthcare",
+        "title": "Salut",
         "description": "Expansió amb focus en el compliment normatiu per a organitzacions de salut i life sciences."
       },
       "consumer": {
@@ -205,11 +201,11 @@
       },
       "diff": {
         "q": "En què us diferencieu d'una consultora tradicional?",
-        "a": "No venem serveis aïllats. Coordindem projectes internacionals complets a través d'un únic punt de contacte i una xarxa d'experts curosament seleccionada, amb el suport de la tecnologia."
+        "a": "No venem serveis aïllats. Coordinem projectes internacionals complets a través d'un únic punt de contacte i una xarxa d'experts cuidadosament seleccionada, amb el suport de la tecnologia."
       },
       "start": {
         "q": "Per on comencem?",
-        "a": "La majoria dels clients comença amb una Discovery Call i, a continuació, Essential per validar l'oportunitat, o Professional quan ja estan a punt per implementar."
+        "a": "La majoria dels clients comença amb una Discovery Call i, a continuació, Essential (2.950 €) per validar l'oportunitat, o Professional (7.950 €) quan ja estan a punt per implementar."
       },
       "locations": {
         "q": "On sou?",
