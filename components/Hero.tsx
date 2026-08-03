@@ -22,8 +22,8 @@ export default function Hero() {
 
       <div className="relative mx-auto flex min-h-[85vh] max-w-content flex-col justify-center px-4 py-24 sm:px-6 lg:px-8">
         <div className="animate-fade-up max-w-3xl">
-          <div className="mb-8 inline-flex rounded-2xl bg-white/95 px-5 py-4 shadow-lg shadow-nexo-black/10 backdrop-blur-sm">
-            <Logo variant="full" className="!h-auto" />
+          <div className="mb-8 inline-flex rounded-2xl bg-white px-5 py-4 shadow-md shadow-nexo-black/10">
+            <Logo variant="full" />
           </div>
           <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl lg:text-[3.25rem]">
             {t('title')}
