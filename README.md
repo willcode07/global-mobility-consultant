@@ -22,8 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) (redirects to `/en/`).
 | `NEXT_PUBLIC_LINKEDIN_URL` | LinkedIn profile/company URL |
 | `NEXT_PUBLIC_EXPANSION_GUIDE_URL` | Optional PDF/link for resources |
 | `NEXT_PUBLIC_HUBSPOT_PORTAL_ID` / `NEXT_PUBLIC_HUBSPOT_FORM_ID` | HubSpot form submit |
-| `NEXT_PUBLIC_SITE_URL` | Canonical site URL for sitemap/SEO |
-| `GITHUB_PAGES=true` | Enables `basePath` for GitHub Pages builds |
+| `NEXT_PUBLIC_SITE_URL` | Canonical site URL (default: `https://nexo-mobility.com`) |
 
 ## Project structure
 
@@ -45,13 +44,16 @@ Homepage sections (anchor targets): `#services`, `#industries`, `#about`, `#cont
 | Script | Description |
 |--------|-------------|
 | `npm run dev` | Local development |
-| `npm run build` | Production build (Vercel / any host) |
-| `npm run build:gh-pages` | Static export with GitHub Pages `basePath` |
+| `npm run build` | Production static export (GitHub Pages / any host) |
 | `npm run lint` | ESLint |
 
 ## Content
 
 All marketing copy lives in `messages/en.json`, `messages/es.json`, and `messages/ca.json`, including service packages, add-on pricing, and FAQs.
+
+## Custom domain
+
+Live at [https://nexo-mobility.com](https://nexo-mobility.com). DNS is configured at GoDaddy; GitHub Pages serves the static export with `public/CNAME`.
 
 ## License
 

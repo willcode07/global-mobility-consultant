@@ -35,7 +35,7 @@ jobs:
 
       - name: Build (static export)
         env:
-          GITHUB_PAGES: "true"
+          NEXT_PUBLIC_SITE_URL: "https://nexo-mobility.com"
         run: npm run build
 
       - name: Upload artifact
