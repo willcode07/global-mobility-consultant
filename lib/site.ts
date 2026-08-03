@@ -2,7 +2,9 @@ export const siteConfig = {
   name: 'Nexo Mobility',
   tagline: 'Consulting · Technology · Global Connections',
   locations: 'Miami · Barcelona',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://nexomobility.com',
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    'https://willcode07.github.io/global-mobility-consultant',
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '',
   linkedinUrl: process.env.NEXT_PUBLIC_LINKEDIN_URL || '',
   hubspotPortalId: process.env.NEXT_PUBLIC_HUBSPOT_PORTAL_ID || '',

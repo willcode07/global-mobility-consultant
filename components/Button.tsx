@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { type ButtonHTMLAttributes, type ReactNode } from 'react';
+import { withBasePath } from '@/lib/site';
 
 type Variant = 'primary' | 'secondary' | 'ghost' | 'accent' | 'outline-teal' | 'outline-purple';
 type Size = 'sm' | 'md' | 'lg';
@@ -60,10 +60,16 @@ export default function Button(props: ButtonAsButton | ButtonAsLink) {
   ].join(' ');
 
   if ('href' in props && props.href) {
+    // Plain anchors avoid Next client-router 404s on static GitHub Pages export.
     return (
-      <Link href={props.href} className={classes} target={props.target} rel={props.rel}>
+      <a
+        href={withBasePath(props.href)}
+        className={classes}
+        target={props.target}
+        rel={props.rel}
+      >
         {children}
-      </Link>
+      </a>
     );
   }
 

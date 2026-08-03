@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { withBasePath } from '@/lib/site';
 
 type LogoProps = {
@@ -48,8 +47,11 @@ export default function Logo({
   }
 
   return (
-    <Link href={href} className={`inline-flex transition-opacity hover:opacity-90 ${className}`}>
+    <a
+      href={withBasePath(href)}
+      className={`inline-flex transition-opacity hover:opacity-90 ${className}`}
+    >
       {content}
-    </Link>
+    </a>
   );
 }
