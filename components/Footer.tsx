@@ -21,8 +21,8 @@ export default function Footer() {
 
   const links = [
     { href: withBasePath(`${homePath}#how-it-works`), label: tNav('howItWorks') },
-    { href: withBasePath(`${homePath}#services`), label: tNav('services') },
     { href: withBasePath(`${homePath}#ecosystem`), label: tNav('ecosystem') },
+    { href: withBasePath(`${homePath}#services`), label: tNav('services') },
     { href: withBasePath(`${homePath}#contact`), label: tNav('contact') },
   ];
 
