@@ -28,7 +28,7 @@
       },
       "strategy": {
         "title": "Estrategia de expansión",
-        "description": "Definimos el roadmap, las prioridades y el equipo de especialistas que necesita tu proyecto."
+        "description": "Definimos la hoja de ruta, las prioridades y el equipo de especialistas que necesita tu proyecto."
       },
       "execution": {
         "title": "Ejecución y coordinación",
@@ -41,7 +41,7 @@
     }
   },
   "ecosystem": {
-    "title": "Ecosistema de partners de confianza",
+    "title": "Ecosistema de socios de confianza",
     "subtitle": "Un ecosistema de confianza.",
     "intro": "En lugar de buscar y gestionar múltiples proveedores, Nexo Mobility te da acceso a una red cuidadosamente seleccionada de especialistas de confianza que trabajan juntos mediante un único proceso coordinado.",
     "areas": {
@@ -77,7 +77,7 @@
       "title": "Panel de expansión",
       "row1": "Constitución societaria",
       "row2": "Trámites de inmigración",
-      "row3": "RR. HH. y onboarding"
+      "row3": "RR. HH. e incorporación"
     }
   },
   "packages": {
@@ -93,7 +93,7 @@
       "features": [
         "Discovery Workshop",
         "Diagnóstico inicial",
-        "Roadmap de expansión",
+        "Hoja de ruta de expansión",
         "Recomendaciones estratégicas",
         "Reunión ejecutiva de presentación"
       ]
@@ -111,7 +111,7 @@
         "Acceso a nuestra red de expertos",
         "Seguimiento durante la implantación",
         "Reuniones quincenales",
-        "Gestión documental y reporting"
+        "Gestión documental e informes"
       ]
     },
     "enterprise": {
@@ -150,7 +150,7 @@
       },
       "technology": {
         "title": "Tecnología",
-        "description": "Estrategia go-to-market, partnerships y setup operativo para empresas tecnológicas."
+        "description": "Estrategia de entrada al mercado, alianzas y puesta en marcha operativa para empresas tecnológicas."
       },
       "manufacturing": {
         "title": "Manufactura",
@@ -184,11 +184,11 @@
       },
       "transparency": {
         "title": "Gestión transparente del proyecto",
-        "description": "Hitos claros, reporting y responsabilidad a lo largo de todo el engagement."
+        "description": "Hitos claros, informes y responsabilidad a lo largo de todo el proyecto."
       },
       "speed": {
         "title": "Decisiones más rápidas",
-        "description": "Expertise coordinado que reduce fricción y acelera el avance."
+        "description": "Conocimiento especializado y coordinado que reduce fricción y acelera el avance."
       }
     }
   },
@@ -230,6 +230,7 @@
     }
   },
   "footer": {
+    "explore": "Explorar",
     "rights": "Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "terms": "Términos",

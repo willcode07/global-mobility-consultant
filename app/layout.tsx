@@ -7,7 +7,10 @@ export const metadata: Metadata = {
   description:
     'Boutique consulting for Spanish companies expanding into the United States.',
   icons: {
-    icon: withBasePath('/favicon.ico'),
+    icon: [
+      { url: withBasePath('/favicon.ico') },
+      { url: withBasePath('/favicon.png'), type: 'image/png' },
+    ],
     apple: withBasePath('/brand/apple-touch-icon.png'),
   },
 };

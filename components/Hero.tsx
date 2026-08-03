@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
-import Logo from './Logo';
 import Button from './Button';
 import { withBasePath } from '@/lib/site';
 
@@ -11,7 +10,7 @@ export default function Hero() {
   const howItWorksHref = withBasePath(`/${locale}/#how-it-works`);
 
   return (
-    <section id="home" className="relative isolate min-h-[85vh] overflow-hidden">
+    <section id="home" className="relative isolate min-h-[80vh] overflow-hidden">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={withBasePath('/images/hero-skyline.jpg')}
@@ -20,11 +19,8 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-br from-nexo-purple/80 via-nexo-black/65 to-nexo-black/50" />
 
-      <div className="relative mx-auto flex min-h-[85vh] max-w-content flex-col justify-center px-4 py-24 sm:px-6 lg:px-8">
+      <div className="relative mx-auto flex min-h-[80vh] max-w-content flex-col justify-center px-4 py-24 sm:px-6 lg:px-8">
         <div className="animate-fade-up max-w-3xl">
-          <div className="mb-8 inline-flex rounded-2xl bg-white/80 px-5 py-4 shadow-md shadow-nexo-black/10 backdrop-blur-sm opacity-90">
-            <Logo variant="full" />
-          </div>
           <h1 className="font-heading text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl lg:text-[3.25rem]">
             {t('title')}
           </h1>

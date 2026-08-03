@@ -38,7 +38,7 @@ export default function Footer() {
 
           <div>
             <p className="font-heading text-sm font-semibold uppercase tracking-wider text-white/40">
-              {tNav('home')}
+              {t('explore')}
             </p>
             <ul className="mt-4 space-y-2">
               {links.map((link) => (

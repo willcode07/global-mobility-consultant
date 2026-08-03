@@ -3,7 +3,7 @@ import { withBasePath } from '@/lib/site';
 
 type LogoProps = {
   href?: string;
-  variant?: 'full' | 'mark' | 'horizontal';
+  variant?: 'mark' | 'horizontal';
   className?: string;
   inverted?: boolean;
 };
@@ -23,13 +23,6 @@ export default function Logo({
         src={withBasePath('/brand/logo-mark.png')}
         alt="Nexo Mobility"
         className={`h-9 w-auto ${filter}`}
-      />
-    ) : variant === 'full' ? (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
-        src={withBasePath('/brand/logo-full.png')}
-        alt="Nexo Mobility — Consulting · Technology · Global Connections"
-        className={`h-24 w-auto sm:h-28 md:h-32 ${filter}`}
       />
     ) : (
       <span className="flex items-center gap-2.5">

@@ -43,7 +43,10 @@ export async function generateMetadata({
       type: 'website',
     },
     icons: {
-      icon: withBasePath('/favicon.ico'),
+      icon: [
+        { url: withBasePath('/favicon.ico') },
+        { url: withBasePath('/favicon.png'), type: 'image/png' },
+      ],
       apple: withBasePath('/brand/apple-touch-icon.png'),
     },
   };
@@ -62,14 +65,14 @@ export default async function LocaleLayout({
 
   unstable_setRequestLocale(locale);
   const messages = await getMessages();
+  const t = await getTranslations({ locale, namespace: 'meta' });
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: siteConfig.name,
     url: siteConfig.url,
-    description:
-      'Boutique consulting for Spanish companies expanding into the United States.',
+    description: t('homeDescription'),
     areaServed: ['US', 'ES'],
     address: [
       { '@type': 'PostalAddress', addressLocality: 'Miami', addressCountry: 'US' },

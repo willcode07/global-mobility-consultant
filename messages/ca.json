@@ -28,7 +28,7 @@
       },
       "strategy": {
         "title": "Estratègia d'expansió",
-        "description": "Definim el roadmap, les prioritats i l'equip d'especialistes que necessita el teu projecte."
+        "description": "Definim el full de ruta, les prioritats i l'equip d'especialistes que necessita el teu projecte."
       },
       "execution": {
         "title": "Execució i coordinació",
@@ -41,7 +41,7 @@
     }
   },
   "ecosystem": {
-    "title": "Ecosistema de partners de confiança",
+    "title": "Ecosistema de socis de confiança",
     "subtitle": "Un ecosistema de confiança.",
     "intro": "En lloc de cercar i gestionar múltiples proveïdors, Nexo Mobility et dona accés a una xarxa cuidadosament seleccionada d'especialistes de confiança que treballen junts mitjançant un únic procés coordinat.",
     "areas": {
@@ -77,7 +77,7 @@
       "title": "Panell d'expansió",
       "row1": "Constitució societària",
       "row2": "Tràmits d'immigració",
-      "row3": "RRHH i onboarding"
+      "row3": "RRHH i incorporació"
     }
   },
   "packages": {
@@ -93,7 +93,7 @@
       "features": [
         "Discovery Workshop",
         "Diagnòstic inicial",
-        "Roadmap d'expansió",
+        "Full de ruta d'expansió",
         "Recomanacions estratègiques",
         "Reunió executiva de presentació"
       ]
@@ -111,7 +111,7 @@
         "Accés a la nostra xarxa d'experts",
         "Seguiment durant la implantació",
         "Reunions quinzenals",
-        "Gestió documental i reporting"
+        "Gestió documental i informes"
       ]
     },
     "enterprise": {
@@ -150,7 +150,7 @@
       },
       "technology": {
         "title": "Tecnologia",
-        "description": "Estratègia go-to-market, partnerships i setup operatiu per a empreses tecnològiques."
+        "description": "Estratègia d'entrada al mercat, aliances i posada en marxa operativa per a empreses tecnològiques."
       },
       "manufacturing": {
         "title": "Manufactura",
@@ -184,11 +184,11 @@
       },
       "transparency": {
         "title": "Gestió transparent del projecte",
-        "description": "Fites clares, reporting i responsabilitat al llarg de tot l'engagement."
+        "description": "Fites clares, informes i responsabilitat al llarg de tot el projecte."
       },
       "speed": {
         "title": "Decisions més ràpides",
-        "description": "Expertise coordinat que redueix fricció i accelera l'avanç."
+        "description": "Coneixement especialitzat i coordinat que redueix fricció i accelera l'avanç."
       }
     }
   },
@@ -230,6 +230,7 @@
     }
   },
   "footer": {
+    "explore": "Explorar",
     "rights": "Tots els drets reservats.",
     "privacy": "Política de privacitat",
     "terms": "Termes",
