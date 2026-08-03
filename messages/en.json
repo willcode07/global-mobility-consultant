@@ -1,76 +1,87 @@
 {
   "meta": {
-    "homeTitle": "Nexo Mobility — Expand into the U.S. with confidence",
-    "homeDescription": "Boutique consulting for Spanish companies expanding into the United States. One strategic partner coordinating every stage of your international growth."
+    "homeTitle": "Nexo Mobility — Your trusted partner for coordinated U.S. expansion",
+    "homeDescription": "Technology-enabled consulting that coordinates legal, tax, immigration, HR and business specialists through one dedicated point of contact."
   },
   "nav": {
     "home": "Home",
+    "howItWorks": "How It Works",
     "services": "Services",
-    "industries": "Industries",
-    "about": "About",
+    "ecosystem": "Ecosystem",
     "contact": "Contact",
     "cta": "Book a Call",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
   "hero": {
-    "brand": "Nexo Mobility",
-    "title": "Expand your business into the U.S. with confidence.",
-    "subtitle": "Nexo Mobility helps Spanish companies enter the United States by coordinating every stage of the journey through one trusted strategic partner.",
+    "title": "Your trusted partner for coordinated U.S. expansion.",
+    "subtitle": "We coordinate a carefully selected network of trusted specialists across legal, tax, immigration, HR and business services through one dedicated point of contact — making your U.S. expansion simpler, faster and fully coordinated.",
     "ctaPrimary": "Book a Discovery Call",
-    "ctaSecondary": "Download our Expansion Guide",
-    "ctaSecondaryFallback": "Explore our packages"
-  },
-  "whatWeDo": {
-    "title": "What we do",
-    "subtitle": "We do not sell isolated services. We design, coordinate, and accompany international projects from first assessment to long-term growth.",
-    "items": {
-      "consulting": {
-        "title": "Strategic consulting",
-        "description": "Clarify the opportunity, the risks, and the most suitable path into the U.S. market."
-      },
-      "expansion": {
-        "title": "International expansion",
-        "description": "End-to-end coordination from assessment through market entry and ongoing follow-up."
-      },
-      "ecosystem": {
-        "title": "Trusted ecosystem",
-        "description": "Access specialists in legal, tax, immigration, talent, and operations through a single point of contact."
-      },
-      "partnership": {
-        "title": "Long-term partnership",
-        "description": "Remain with you beyond launch, with advisory support that scales alongside your U.S. presence."
-      }
-    }
+    "ctaSecondary": "How It Works"
   },
   "howWeWork": {
-    "title": "How we work",
-    "subtitle": "A clear journey from the first conversation to a lasting partnership.",
+    "title": "How it works",
+    "subtitle": "A clear four-step process from first conversation to sustained growth in the United States.",
     "steps": {
       "discovery": {
         "title": "Discovery Call",
-        "description": "We understand your objectives, timeline, and constraints."
+        "description": "We understand your objectives, timeline and constraints."
       },
-      "assessment": {
-        "title": "Assessment",
-        "description": "We evaluate viability and map a practical expansion roadmap."
+      "strategy": {
+        "title": "Expansion Strategy",
+        "description": "We define the roadmap, priorities and specialist team your project needs."
       },
-      "proposal": {
-        "title": "Proposal",
-        "description": "We define scope, package, and the specialist team your project requires."
+      "execution": {
+        "title": "Execution & Coordination",
+        "description": "We manage every workstream through one coordinated process."
       },
-      "project": {
-        "title": "Project",
-        "description": "We coordinate market entry with transparent reporting at every stage."
-      },
-      "partner": {
-        "title": "Long-term partner",
-        "description": "We provide ongoing advisory as your U.S. operation matures."
+      "launch": {
+        "title": "Launch & Growth",
+        "description": "We support go-live and continue advising as your U.S. presence grows."
       }
     }
   },
+  "ecosystem": {
+    "title": "Trusted Partner Ecosystem",
+    "subtitle": "One trusted ecosystem.",
+    "intro": "Instead of searching for and managing multiple providers, Nexo Mobility gives you access to a carefully selected network of trusted specialists working together through one coordinated process.",
+    "areas": {
+      "legal": "Legal",
+      "tax": "Tax & Accounting",
+      "immigration": "Immigration",
+      "hr": "HR & Talent",
+      "payroll": "Payroll",
+      "banking": "Banking",
+      "compliance": "Compliance",
+      "logistics": "Logistics",
+      "marketing": "Marketing",
+      "business": "Business Development"
+    },
+    "closing": "One point of contact. One coordinated project. One trusted ecosystem."
+  },
+  "portal": {
+    "badge": "Coming Soon",
+    "title": "Everything in one place",
+    "subtitle": "A technology-enabled client experience designed around clarity, progress and control — with people still at the centre of the service.",
+    "note": "The Client Portal will become a core differentiator of Nexo Mobility: project visibility, documentation and communication in a single secure space.",
+    "features": {
+      "progress": "Project progress",
+      "timeline": "Timeline",
+      "documents": "Documents",
+      "messages": "Messages",
+      "meetings": "Meetings",
+      "sla": "SLA response time",
+      "tasks": "Tasks",
+      "milestones": "Milestones"
+    },
+    "mock": {
+      "title": "Expansion dashboard",
+      "row1": "Legal entity setup",
+      "row2": "Immigration filings",
+      "row3": "HR & onboarding"
+    }
+  },
   "packages": {
-    "eyebrow": "Nexo Mobility",
     "title": "Our support offering",
     "subtitle": "Packages designed for every stage of your expansion into the United States.",
     "addonsTitle": "Available add-ons",
@@ -92,13 +103,13 @@
       "name": "Professional",
       "tagline": "Implement with confidence",
       "price": "From XXX €",
-      "description": "The most complete package for beginning your expansion with specialised support.",
+      "description": "The most complete package for beginning your expansion with specialised coordination.",
       "cta": "Most popular",
       "featured": "Featured",
       "features": [
         "Everything included in Essential",
         "Project coordination",
-        "Access to our expert ecosystem",
+        "Access to our expert network",
         "Support throughout market entry",
         "Biweekly meetings",
         "Document management and reporting"
@@ -160,64 +171,29 @@
       }
     }
   },
-  "cases": {
-    "title": "Success stories",
-    "subtitle": "Illustrative examples of how we support expansion projects.",
-    "note": "Anonymised examples for demonstration — replace with client-approved case studies.",
-    "items": {
-      "one": {
-        "sector": "Food & Beverage",
-        "title": "Market validation before a U.S. launch",
-        "description": "A Spanish specialty foods company used Essential to validate demand, regulatory requirements, and a phased distribution roadmap before committing capital."
-      },
-      "two": {
-        "sector": "Industrial",
-        "title": "Coordinated market entry with local partners",
-        "description": "A mid-sized manufacturer engaged Professional to coordinate legal setup, supplier selection, and biweekly execution oversight across Miami and the Midwest."
-      }
-    }
-  },
-  "about": {
-    "title": "About Nexo Mobility",
-    "subtitle": "A boutique consultancy dedicated to accompanying Spanish companies as they expand into the United States.",
-    "storyTitle": "Our story",
-    "story": "Nexo Mobility was founded to reduce the uncertainty of international expansion. We serve as the single strategic partner that designs, coordinates, and accompanies each project — connecting Spanish leadership with trusted specialists in the United States.",
-    "missionTitle": "Mission",
-    "mission": "To reduce uncertainty during international expansion by providing Spanish companies with comprehensive strategic support and coordinated access to trusted specialists in the United States.",
-    "visionTitle": "Vision",
-    "vision": "To become the boutique consultancy of reference for Spanish companies seeking to establish themselves successfully in the U.S. market.",
-    "valuesTitle": "Values",
-    "values": {
-      "trust": "Trust",
-      "transparency": "Transparency",
-      "closeness": "Approachability",
-      "excellence": "Excellence",
-      "innovation": "Innovation",
-      "collaboration": "Collaboration",
-      "results": "Results focus"
-    },
-    "promiseTitle": "Brand promise",
-    "promise": "Reducing uncertainty. Enabling international growth."
-  },
   "why": {
     "title": "Why Nexo Mobility",
-    "subtitle": "Reducing uncertainty. Enabling international growth.",
+    "subtitle": "Not a traditional consultancy — a technology-enabled company that simplifies international expansion.",
     "items": {
-      "trust": {
-        "title": "Trust and transparency",
-        "description": "Clear communication, honest assessments, and no aggressive sales tactics."
+      "contact": {
+        "title": "One point of contact",
+        "description": "A single strategic interlocutor coordinating every workstream for you."
       },
-      "single": {
-        "title": "One strategic partner",
-        "description": "We centralise project management so you never have to coordinate vendors alone."
+      "network": {
+        "title": "Carefully selected expert network",
+        "description": "Trusted specialists across legal, tax, immigration, HR and business services."
       },
-      "ecosystem": {
-        "title": "Expert ecosystem",
-        "description": "Legal, tax, immigration, talent, and operations specialists — coordinated by us."
+      "technology": {
+        "title": "Technology-enabled coordination",
+        "description": "Digital tools that improve clarity and speed, with people still at the centre."
       },
-      "results": {
-        "title": "Focus on results",
-        "description": "Every engagement is structured around milestones that advance your expansion."
+      "transparency": {
+        "title": "Transparent project management",
+        "description": "Clear milestones, reporting and accountability throughout the engagement."
+      },
+      "speed": {
+        "title": "Faster decision-making",
+        "description": "Coordinated expertise that reduces friction and accelerates progress."
       }
     }
   },
@@ -226,11 +202,11 @@
     "items": {
       "who": {
         "q": "Who is Nexo Mobility for?",
-        "a": "Spanish SMEs, family businesses, and industrial, technology, food, and services companies preparing to enter or grow in the United States."
+        "a": "Spanish SMEs, family businesses, and industrial, technology, food and services companies preparing to enter or grow in the United States."
       },
       "diff": {
         "q": "How do you differ from a traditional consultancy?",
-        "a": "We do not sell isolated services. We design and coordinate complete international projects through one trusted partner and a vetted ecosystem of specialists."
+        "a": "We do not sell isolated services. We coordinate complete international projects through one trusted point of contact and a carefully selected expert network — supported by technology."
       },
       "start": {
         "q": "Where should we begin?",

@@ -1,76 +1,87 @@
 {
   "meta": {
-    "homeTitle": "Nexo Mobility — Expandeix el teu negoci als EUA amb confiança",
-    "homeDescription": "Consultora boutique per a empreses espanyoles que s'expandeixen cap als Estats Units. Un interlocutor estratègic que coordina cada etapa del teu creixement internacional."
+    "homeTitle": "Nexo Mobility — El teu partner de confiança per a una expansió coordinada als EUA",
+    "homeDescription": "Consultoria impulsada per tecnologia que coordina especialistes legals, fiscals, migratoris, de RRHH i de negoci a través d'un únic punt de contacte."
   },
   "nav": {
     "home": "Inici",
+    "howItWorks": "Com funciona",
     "services": "Serveis",
-    "industries": "Sectors",
-    "about": "Nosaltres",
+    "ecosystem": "Ecosistema",
     "contact": "Contacte",
     "cta": "Reservar trucada",
     "openMenu": "Obrir menú",
     "closeMenu": "Tancar menú"
   },
   "hero": {
-    "brand": "Nexo Mobility",
-    "title": "Expandeix el teu negoci als EUA amb confiança.",
-    "subtitle": "Nexo Mobility acompanya empreses espanyoles en la seva expansió als Estats Units, coordinant cada etapa del procés a través d'un únic interlocutor estratègic de confiança.",
+    "title": "El teu partner de confiança per a una expansió coordinada als EUA.",
+    "subtitle": "Coordindem una xarxa curosament seleccionada d'especialistes de confiança en legal, fiscal, immigració, RRHH i serveis empresarials a través d'un únic punt de contacte, fent la teva expansió als EUA més simple, ràpida i plenament coordinada.",
     "ctaPrimary": "Reservar Discovery Call",
-    "ctaSecondary": "Descarregar guia d'expansió",
-    "ctaSecondaryFallback": "Explorar els nostres paquets"
-  },
-  "whatWeDo": {
-    "title": "Què fem",
-    "subtitle": "No venem serveis aïllats. Dissenyem, coordinem i acompanyem projectes internacionals des del primer diagnòstic fins al creixement a llarg termini.",
-    "items": {
-      "consulting": {
-        "title": "Consultoria estratègica",
-        "description": "Clarifiquem l'oportunitat, els riscos i el camí més adequat per entrar al mercat estatunidenc."
-      },
-      "expansion": {
-        "title": "Expansió internacional",
-        "description": "Coordinació integral des del diagnòstic fins a la implantació i el seguiment continu."
-      },
-      "ecosystem": {
-        "title": "Ecosistema de confiança",
-        "description": "Accés a especialistes legals, fiscals, migratoris, de talent i operacions a través d'un únic interlocutor."
-      },
-      "partnership": {
-        "title": "Aliança a llarg termini",
-        "description": "T'acompanyem més enllà del llançament, amb advisory que creix juntament amb la teva presència als EUA."
-      }
-    }
+    "ctaSecondary": "Com funciona"
   },
   "howWeWork": {
-    "title": "Com treballem",
-    "subtitle": "Un recorregut clar des de la primera conversa fins a una col·laboració duradora.",
+    "title": "Com funciona",
+    "subtitle": "Un procés clar en quatre passos, des de la primera conversa fins al creixement sostingut als Estats Units.",
     "steps": {
       "discovery": {
         "title": "Discovery Call",
         "description": "Comprenem els teus objectius, terminis i restriccions."
       },
-      "assessment": {
-        "title": "Assessment",
-        "description": "Avaluem la viabilitat i tracem un roadmap d'expansió pràctic."
+      "strategy": {
+        "title": "Estratègia d'expansió",
+        "description": "Definim el roadmap, les prioritats i l'equip d'especialistes que necessita el teu projecte."
       },
-      "proposal": {
-        "title": "Proposta",
-        "description": "Definim l'abast, el paquet i l'equip d'especialistes que requereix el teu projecte."
+      "execution": {
+        "title": "Execució i coordinació",
+        "description": "Gestionem cada línia de treball a través d'un únic procés coordinat."
       },
-      "project": {
-        "title": "Projecte",
-        "description": "Coordindem la implantació amb reporting transparent a cada etapa."
-      },
-      "partner": {
-        "title": "Partner a llarg termini",
-        "description": "Oferim advisory continu a mesura que madura la teva operació als EUA."
+      "launch": {
+        "title": "Llançament i creixement",
+        "description": "Acompanyem el go-live i continuem assessorant-te a mesura que creix la teva presència als EUA."
       }
     }
   },
+  "ecosystem": {
+    "title": "Trusted Partner Ecosystem",
+    "subtitle": "Un ecosistema de confiança.",
+    "intro": "En lloc de cercar i gestionar múltiples proveïdors, Nexo Mobility et dóna accés a una xarxa curosament seleccionada d'especialistes de confiança que treballen junts mitjançant un únic procés coordinat.",
+    "areas": {
+      "legal": "Legal",
+      "tax": "Fiscal i comptabilitat",
+      "immigration": "Immigració",
+      "hr": "RRHH i talent",
+      "payroll": "Nòmina",
+      "banking": "Banca",
+      "compliance": "Compliance",
+      "logistics": "Logística",
+      "marketing": "Marketing",
+      "business": "Desenvolupament de negoci"
+    },
+    "closing": "Un únic punt de contacte. Un projecte coordinat. Un ecosistema de confiança."
+  },
+  "portal": {
+    "badge": "Properament",
+    "title": "Tot en un sol lloc",
+    "subtitle": "Una experiència de client impulsada per tecnologia, dissenyada per aportar claredat, progrés i control — amb les persones al centre del servei.",
+    "note": "El Portal del Client es convertirà en un diferenciador clau de Nexo Mobility: visibilitat del projecte, documentació i comunicació en un únic espai segur.",
+    "features": {
+      "progress": "Estat del projecte",
+      "timeline": "Timeline",
+      "documents": "Documentació",
+      "messages": "Missatges",
+      "meetings": "Reunions",
+      "sla": "SLA de resposta",
+      "tasks": "Tasques",
+      "milestones": "Fites"
+    },
+    "mock": {
+      "title": "Panel d'expansió",
+      "row1": "Constitució societària",
+      "row2": "Tràmits d'immigració",
+      "row3": "RRHH i onboarding"
+    }
+  },
   "packages": {
-    "eyebrow": "Nexo Mobility",
     "title": "La nostra oferta d'acompanyament",
     "subtitle": "Paquets dissenyats per a cada etapa de la teva expansió als Estats Units.",
     "addonsTitle": "Add-ons disponibles",
@@ -92,13 +103,13 @@
       "name": "Professional",
       "tagline": "Implementa amb èxit",
       "price": "Des de XXX €",
-      "description": "El paquet més complet per iniciar el teu procés d'expansió amb acompanyament especialitzat.",
+      "description": "El paquet més complet per iniciar el teu procés d'expansió amb coordinació especialitzada.",
       "cta": "Més popular",
       "featured": "Destacat",
       "features": [
         "Tot el que inclou Essential",
         "Coordinació del projecte",
-        "Accés al nostre ecosistema d'experts",
+        "Accés a la nostra xarxa d'experts",
         "Seguiment durant la implantació",
         "Reunions quinzenals",
         "Gestió documental i reporting"
@@ -160,64 +171,29 @@
       }
     }
   },
-  "cases": {
-    "title": "Casos d'èxit",
-    "subtitle": "Exemples il·lustratius de com acompanyem projectes d'expansió.",
-    "note": "Exemples anonimitzats amb finalitats demostratives — substituir per casos aprovats per clients.",
-    "items": {
-      "one": {
-        "sector": "Alimentació i begudes",
-        "title": "Validació de mercat abans del llançament als EUA",
-        "description": "Una empresa espanyola d'alimentació specialty va fer servir Essential per validar la demanda, els requisits regulatoris i un roadmap de distribució per fases abans de comprometre capital."
-      },
-      "two": {
-        "sector": "Industrial",
-        "title": "Implantació coordinada amb partners locals",
-        "description": "Un fabricant mitjà va contractar Professional per coordinar el setup legal, la selecció de proveïdors i el seguiment quinzenal de l'execució entre Miami i el Midwest."
-      }
-    }
-  },
-  "about": {
-    "title": "Sobre Nexo Mobility",
-    "subtitle": "Una consultora boutique especialitzada a acompanyar empreses espanyoles durant la seva expansió cap als Estats Units.",
-    "storyTitle": "La nostra història",
-    "story": "Nexo Mobility va néixer per reduir la incertesa de l'expansió internacional. Actuem com l'únic interlocutor estratègic que dissenya, coordina i acompanya cada projecte, connectant el lideratge espanyol amb especialistes de confiança als Estats Units.",
-    "missionTitle": "Missió",
-    "mission": "Reduir la incertesa durant l'expansió internacional proporcionant a les empreses espanyoles un acompanyament estratègic integral i un accés coordinat a especialistes de confiança als Estats Units.",
-    "visionTitle": "Visió",
-    "vision": "Convertir-nos en la consultora boutique de referència per a empreses espanyoles que desitgen establir-se amb èxit al mercat estatunidenc.",
-    "valuesTitle": "Valors",
-    "values": {
-      "trust": "Confiança",
-      "transparency": "Transparència",
-      "closeness": "Proximitat",
-      "excellence": "Excel·lència",
-      "innovation": "Innovació",
-      "collaboration": "Col·laboració",
-      "results": "Orientació a resultats"
-    },
-    "promiseTitle": "Promesa de marca",
-    "promise": "Reduir la incertesa. Impulsar el creixement internacional."
-  },
   "why": {
     "title": "Per què Nexo Mobility",
-    "subtitle": "Reduir la incertesa. Impulsar el creixement internacional.",
+    "subtitle": "No som una consultora tradicional: som una empresa tecnològica que simplifica l'expansió internacional.",
     "items": {
-      "trust": {
-        "title": "Confiança i transparència",
-        "description": "Comunicació clara, diagnòstics honestos i sense tàctiques de venda agressives."
+      "contact": {
+        "title": "Un únic punt de contacte",
+        "description": "Un interlocutor estratègic que coordina cada línia de treball per tu."
       },
-      "single": {
-        "title": "Un únic interlocutor estratègic",
-        "description": "Centralitzem la gestió del projecte perquè no hagis de coordinar proveïdors en solitari."
+      "network": {
+        "title": "Xarxa d'experts seleccionada",
+        "description": "Especialistes de confiança en legal, fiscal, immigració, RRHH i serveis empresarials."
       },
-      "ecosystem": {
-        "title": "Ecosistema d'experts",
-        "description": "Especialistes legals, fiscals, migratoris, de talent i operacions, coordinats per nosaltres."
+      "technology": {
+        "title": "Coordinació impulsada per tecnologia",
+        "description": "Eines digitals que aporten claredat i velocitat, amb les persones al centre."
       },
-      "results": {
-        "title": "Orientació a resultats",
-        "description": "Cada engagement s'estructura al voltant de fites que avancen la teva expansió."
+      "transparency": {
+        "title": "Gestió transparent del projecte",
+        "description": "Fites clares, reporting i responsabilitat al llarg de tot l'engagement."
+      },
+      "speed": {
+        "title": "Decisions més ràpides",
+        "description": "Expertise coordinat que redueix fricció i accelera l'avanç."
       }
     }
   },
@@ -230,7 +206,7 @@
       },
       "diff": {
         "q": "En què us diferencieu d'una consultora tradicional?",
-        "a": "No venem serveis aïllats. Dissenyem i coordinem projectes internacionals complets a través d'un partner de confiança i un ecosistema contrastat d'especialistes."
+        "a": "No venem serveis aïllats. Coordindem projectes internacionals complets a través d'un únic punt de contacte i una xarxa d'experts curosament seleccionada, amb el suport de la tecnologia."
       },
       "start": {
         "q": "Per on comencem?",

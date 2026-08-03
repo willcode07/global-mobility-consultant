@@ -20,9 +20,9 @@ export default function Footer() {
   const homePath = `/${locale}/`;
 
   const links = [
+    { href: withBasePath(`${homePath}#how-it-works`), label: tNav('howItWorks') },
     { href: withBasePath(`${homePath}#services`), label: tNav('services') },
-    { href: withBasePath(`${homePath}#industries`), label: tNav('industries') },
-    { href: withBasePath(`${homePath}#about`), label: tNav('about') },
+    { href: withBasePath(`${homePath}#ecosystem`), label: tNav('ecosystem') },
     { href: withBasePath(`${homePath}#contact`), label: tNav('contact') },
   ];
 

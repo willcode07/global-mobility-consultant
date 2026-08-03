@@ -1,76 +1,87 @@
 {
   "meta": {
-    "homeTitle": "Nexo Mobility — Expande tu negocio a EE. UU. con confianza",
-    "homeDescription": "Consultora boutique para empresas españolas que se expanden hacia Estados Unidos. Un interlocutor estratégico que coordina cada etapa de tu crecimiento internacional."
+    "homeTitle": "Nexo Mobility — Tu partner de confianza para una expansión coordinada a EE. UU.",
+    "homeDescription": "Consultoría impulsada por tecnología que coordina especialistas legales, fiscales, migratorios, de RR. HH. y de negocio a través de un único punto de contacto."
   },
   "nav": {
     "home": "Inicio",
+    "howItWorks": "Cómo funciona",
     "services": "Servicios",
-    "industries": "Sectores",
-    "about": "Nosotros",
+    "ecosystem": "Ecosistema",
     "contact": "Contacto",
     "cta": "Reservar llamada",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú"
   },
   "hero": {
-    "brand": "Nexo Mobility",
-    "title": "Expande tu negocio a EE. UU. con confianza.",
-    "subtitle": "Nexo Mobility acompaña a empresas españolas en su expansión a Estados Unidos, coordinando cada etapa del proceso a través de un único interlocutor estratégico de confianza.",
+    "title": "Tu partner de confianza para una expansión coordinada a EE. UU.",
+    "subtitle": "Coordinamos una red cuidadosamente seleccionada de especialistas de confianza en legal, fiscal, inmigración, RR. HH. y servicios empresariales a través de un único punto de contacto, haciendo tu expansión a EE. UU. más simple, rápida y plenamente coordinada.",
     "ctaPrimary": "Reservar Discovery Call",
-    "ctaSecondary": "Descargar guía de expansión",
-    "ctaSecondaryFallback": "Explorar nuestros paquetes"
-  },
-  "whatWeDo": {
-    "title": "Qué hacemos",
-    "subtitle": "No vendemos servicios aislados. Diseñamos, coordinamos y acompañamos proyectos internacionales desde el primer diagnóstico hasta el crecimiento a largo plazo.",
-    "items": {
-      "consulting": {
-        "title": "Consultoría estratégica",
-        "description": "Clarificamos la oportunidad, los riesgos y el camino más adecuado para entrar en el mercado estadounidense."
-      },
-      "expansion": {
-        "title": "Expansión internacional",
-        "description": "Coordinación integral desde el diagnóstico hasta la implantación y el seguimiento continuo."
-      },
-      "ecosystem": {
-        "title": "Ecosistema de confianza",
-        "description": "Acceso a especialistas legales, fiscales, migratorios, de talento y operaciones a través de un único interlocutor."
-      },
-      "partnership": {
-        "title": "Alianza a largo plazo",
-        "description": "Te acompañamos más allá del lanzamiento, con advisory que crece junto a tu presencia en EE. UU."
-      }
-    }
+    "ctaSecondary": "Cómo funciona"
   },
   "howWeWork": {
-    "title": "Cómo trabajamos",
-    "subtitle": "Un recorrido claro desde la primera conversación hasta una colaboración duradera.",
+    "title": "Cómo funciona",
+    "subtitle": "Un proceso claro en cuatro pasos, desde la primera conversación hasta el crecimiento sostenido en Estados Unidos.",
     "steps": {
       "discovery": {
         "title": "Discovery Call",
         "description": "Comprendemos tus objetivos, plazos y restricciones."
       },
-      "assessment": {
-        "title": "Assessment",
-        "description": "Evaluamos la viabilidad y trazamos un roadmap de expansión práctico."
+      "strategy": {
+        "title": "Estrategia de expansión",
+        "description": "Definimos el roadmap, las prioridades y el equipo de especialistas que necesita tu proyecto."
       },
-      "proposal": {
-        "title": "Propuesta",
-        "description": "Definimos el alcance, el paquete y el equipo de especialistas que requiere tu proyecto."
+      "execution": {
+        "title": "Ejecución y coordinación",
+        "description": "Gestionamos cada línea de trabajo a través de un único proceso coordinado."
       },
-      "project": {
-        "title": "Proyecto",
-        "description": "Coordinamos la implantación con reporting transparente en cada etapa."
-      },
-      "partner": {
-        "title": "Partner a largo plazo",
-        "description": "Ofrecemos advisory continuo a medida que madura tu operación en EE. UU."
+      "launch": {
+        "title": "Lanzamiento y crecimiento",
+        "description": "Acompañamos el go-live y seguimos asesorándote a medida que crece tu presencia en EE. UU."
       }
     }
   },
+  "ecosystem": {
+    "title": "Trusted Partner Ecosystem",
+    "subtitle": "Un ecosistema de confianza.",
+    "intro": "En lugar de buscar y gestionar múltiples proveedores, Nexo Mobility te da acceso a una red cuidadosamente seleccionada de especialistas de confianza que trabajan juntos mediante un único proceso coordinado.",
+    "areas": {
+      "legal": "Legal",
+      "tax": "Fiscal y contabilidad",
+      "immigration": "Inmigración",
+      "hr": "RR. HH. y talento",
+      "payroll": "Nómina",
+      "banking": "Banca",
+      "compliance": "Compliance",
+      "logistics": "Logística",
+      "marketing": "Marketing",
+      "business": "Desarrollo de negocio"
+    },
+    "closing": "Un único punto de contacto. Un proyecto coordinado. Un ecosistema de confianza."
+  },
+  "portal": {
+    "badge": "Próximamente",
+    "title": "Todo en un solo lugar",
+    "subtitle": "Una experiencia de cliente impulsada por tecnología, diseñada para aportar claridad, progreso y control — con las personas en el centro del servicio.",
+    "note": "El Portal del Cliente se convertirá en un diferenciador clave de Nexo Mobility: visibilidad del proyecto, documentación y comunicación en un único espacio seguro.",
+    "features": {
+      "progress": "Estado del proyecto",
+      "timeline": "Timeline",
+      "documents": "Documentación",
+      "messages": "Mensajes",
+      "meetings": "Reuniones",
+      "sla": "SLA de respuesta",
+      "tasks": "Tareas",
+      "milestones": "Hitos"
+    },
+    "mock": {
+      "title": "Panel de expansión",
+      "row1": "Constitución societaria",
+      "row2": "Trámites de inmigración",
+      "row3": "RR. HH. y onboarding"
+    }
+  },
   "packages": {
-    "eyebrow": "Nexo Mobility",
     "title": "Nuestra oferta de acompañamiento",
     "subtitle": "Paquetes diseñados para cada etapa de tu expansión en Estados Unidos.",
     "addonsTitle": "Add-ons disponibles",
@@ -92,13 +103,13 @@
       "name": "Professional",
       "tagline": "Implementa con éxito",
       "price": "Desde XXX €",
-      "description": "El paquete más completo para iniciar tu proceso de expansión con acompañamiento especializado.",
+      "description": "El paquete más completo para iniciar tu proceso de expansión con coordinación especializada.",
       "cta": "Más popular",
       "featured": "Destacado",
       "features": [
         "Todo lo incluido en Essential",
         "Coordinación del proyecto",
-        "Acceso a nuestro ecosistema de expertos",
+        "Acceso a nuestra red de expertos",
         "Seguimiento durante la implantación",
         "Reuniones quincenales",
         "Gestión documental y reporting"
@@ -160,64 +171,29 @@
       }
     }
   },
-  "cases": {
-    "title": "Casos de éxito",
-    "subtitle": "Ejemplos ilustrativos de cómo acompañamos proyectos de expansión.",
-    "note": "Ejemplos anonimizados con fines demostrativos — sustituir por casos aprobados por clientes.",
-    "items": {
-      "one": {
-        "sector": "Alimentación y bebidas",
-        "title": "Validación de mercado antes del lanzamiento en EE. UU.",
-        "description": "Una empresa española de alimentación specialty utilizó Essential para validar la demanda, los requisitos regulatorios y un roadmap de distribución por fases antes de comprometer capital."
-      },
-      "two": {
-        "sector": "Industrial",
-        "title": "Implantación coordinada con partners locales",
-        "description": "Un fabricante mediano contrató Professional para coordinar el setup legal, la selección de proveedores y el seguimiento quincenal de la ejecución entre Miami y el Midwest."
-      }
-    }
-  },
-  "about": {
-    "title": "Sobre Nexo Mobility",
-    "subtitle": "Una consultora boutique especializada en acompañar a empresas españolas durante su expansión hacia Estados Unidos.",
-    "storyTitle": "Nuestra historia",
-    "story": "Nexo Mobility nació para reducir la incertidumbre de la expansión internacional. Actuamos como el único interlocutor estratégico que diseña, coordina y acompaña cada proyecto, conectando el liderazgo español con especialistas de confianza en Estados Unidos.",
-    "missionTitle": "Misión",
-    "mission": "Reducir la incertidumbre durante la expansión internacional proporcionando a las empresas españolas un acompañamiento estratégico integral y un acceso coordinado a especialistas de confianza en Estados Unidos.",
-    "visionTitle": "Visión",
-    "vision": "Convertirnos en la consultora boutique de referencia para empresas españolas que desean establecerse con éxito en el mercado estadounidense.",
-    "valuesTitle": "Valores",
-    "values": {
-      "trust": "Confianza",
-      "transparency": "Transparencia",
-      "closeness": "Cercanía",
-      "excellence": "Excelencia",
-      "innovation": "Innovación",
-      "collaboration": "Colaboración",
-      "results": "Orientación a resultados"
-    },
-    "promiseTitle": "Promesa de marca",
-    "promise": "Reducir la incertidumbre. Impulsar el crecimiento internacional."
-  },
   "why": {
     "title": "Por qué Nexo Mobility",
-    "subtitle": "Reducir la incertidumbre. Impulsar el crecimiento internacional.",
+    "subtitle": "No somos una consultora tradicional: somos una empresa tecnológica que simplifica la expansión internacional.",
     "items": {
-      "trust": {
-        "title": "Confianza y transparencia",
-        "description": "Comunicación clara, diagnósticos honestos y sin tácticas de venta agresivas."
+      "contact": {
+        "title": "Un único punto de contacto",
+        "description": "Un interlocutor estratégico que coordina cada línea de trabajo por ti."
       },
-      "single": {
-        "title": "Un único interlocutor estratégico",
-        "description": "Centralizamos la gestión del proyecto para que no tengas que coordinar proveedores en solitario."
+      "network": {
+        "title": "Red de expertos seleccionada",
+        "description": "Especialistas de confianza en legal, fiscal, inmigración, RR. HH. y servicios empresariales."
       },
-      "ecosystem": {
-        "title": "Ecosistema de expertos",
-        "description": "Especialistas legales, fiscales, migratorios, de talento y operaciones, coordinados por nosotros."
+      "technology": {
+        "title": "Coordinación impulsada por tecnología",
+        "description": "Herramientas digitales que aportan claridad y velocidad, con las personas en el centro."
       },
-      "results": {
-        "title": "Orientación a resultados",
-        "description": "Cada engagement se estructura en torno a hitos que avanzan tu expansión."
+      "transparency": {
+        "title": "Gestión transparente del proyecto",
+        "description": "Hitos claros, reporting y responsabilidad a lo largo de todo el engagement."
+      },
+      "speed": {
+        "title": "Decisiones más rápidas",
+        "description": "Expertise coordinado que reduce fricción y acelera el avance."
       }
     }
   },
@@ -230,7 +206,7 @@
       },
       "diff": {
         "q": "¿En qué os diferenciáis de una consultora tradicional?",
-        "a": "No vendemos servicios aislados. Diseñamos y coordinamos proyectos internacionales completos a través de un partner de confianza y un ecosistema contrastado de especialistas."
+        "a": "No vendemos servicios aislados. Coordinamos proyectos internacionales completos a través de un único punto de contacto y una red de expertos cuidadosamente seleccionada, con el apoyo de la tecnología."
       },
       "start": {
         "q": "¿Por dónde empezamos?",

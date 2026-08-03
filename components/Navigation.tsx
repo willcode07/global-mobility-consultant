@@ -9,9 +9,9 @@ import CalendlyButton from './CalendlyButton';
 import { withBasePath } from '@/lib/site';
 
 const links = [
+  { key: 'howItWorks', hash: '#how-it-works' },
   { key: 'services', hash: '#services' },
-  { key: 'industries', hash: '#industries' },
-  { key: 'about', hash: '#about' },
+  { key: 'ecosystem', hash: '#ecosystem' },
   { key: 'contact', hash: '#contact' },
 ] as const;
 
