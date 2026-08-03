@@ -13,8 +13,9 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "title": "Your trusted partner for coordinated U.S. expansion.",
-    "subtitle": "We coordinate a carefully selected network of trusted specialists across legal, tax, immigration, HR and business services through one dedicated point of contact — making your U.S. expansion simpler, faster and fully coordinated.",
+    "title": "Expand your company to the United States.",
+    "lead": "We coordinate the path.",
+    "subtitle": "One point of contact. The best specialists. International expansion without complexity.",
     "ctaPrimary": "Get in touch",
     "ctaSecondary": "How It Works"
   },

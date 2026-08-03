@@ -24,9 +24,6 @@ export default function HowWeWork() {
               <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full border border-nexo-purple/20 bg-nexo-lavender text-nexo-purple">
                 <Icon className="h-6 w-6" strokeWidth={1.75} />
               </div>
-              <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-nexo-purple">
-                {String(index + 1).padStart(2, '0')}
-              </p>
               <h3 className="font-heading text-lg font-semibold text-nexo-black">
                 {t(`steps.${key}.title`)}
               </h3>
